@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,rixcloud.us,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.io,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.app,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.ee,force-remote-dns
-DOMAIN,analytics.rixcloud.app,DIRECT
 # >> Google
 DOMAIN-SUFFIX,appspot.com,force-remote-dns
 DOMAIN-SUFFIX,blogger.com,force-remote-dns

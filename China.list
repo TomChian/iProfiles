@@ -1,4 +1,6 @@
 # --- Mainland China Available --
+# rixCloud
+DOMAIN,analytics.rixcloud.app
 # >> Microsoft
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.net
