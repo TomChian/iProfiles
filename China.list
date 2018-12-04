@@ -1,0 +1,41 @@
+# --- Mainland China Available --
+# >> Microsoft
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN,officecdn-microsoft-com.akamaized.net
+# >> Tencent
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+# >> WeChat
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+# >> Blizzard
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN,blzddist1-a.akamaihd.net
+# >> Steam Store
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,steamstore-a.akamaihd.net
+# >> Others
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipv6-test.com
+DOMAIN-SUFFIX,akadns.net
+USER-AGENT,NeteaseMusic*
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
+PROCESS-NAME,ss-local
+# >> Downloader
+PROCESS-NAME,aria2c
+PROCESS-NAME,fdm
+PROCESS-NAME,Folx
+PROCESS-NAME,NetTransport
+PROCESS-NAME,Thunder
+PROCESS-NAME,Transmission
+PROCESS-NAME,uTorrent
+PROCESS-NAME,WebTorrent
+PROCESS-NAME,WebTorrent Helper
+# --- End of Mainland China Available Section ---
