@@ -103,5 +103,11 @@ DOMAIN-SUFFIX,wsj.net,force-remote-dns
 DOMAIN-SUFFIX,xvideos.com,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,force-remote-dns
+DOMAIN-SUFFIX,hbg.com,force-remote-dns
+DOMAIN-SUFFIX,avgle.com,force-remote-dns
+DOMAIN-SUFFIX,jkforum.net,force-remote-dns
+DOMAIN,onedrive.live.com,force-remote-dns
+DOMAIN-KEYWORD,jav,force-remote-dns
 DOMAIN-KEYWORD,pinterest,force-remote-dns
+DOMAIN-KEYWORD,porn,force-remote-dns
 # --- End of Enhanced Anit-GFW Section ---
