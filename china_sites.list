@@ -1,21 +1,22 @@
 DOMAIN-SUFFIX,cn
 
 # 阿里
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
 
 # 优酷
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youku.com
 
 # 微博
 DOMAIN-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 
 # 饿了么
@@ -30,28 +31,28 @@ DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umsns.com
 
 # 京东
-DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buyimg.com
-DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jcloudcache.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,joybuy.com
 
 # 腾讯
+DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,tencent.com
-DOMAIN-SUFFIX,qcloud.com
 
 # 知乎
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 
 # 爱奇艺
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,qiyipic.com
-DOMAIN-SUFFIX,qiyi.com
-DOMAIN-SUFFIX,iqiyipic.com
-DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,71.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,qiyi.com
+DOMAIN-SUFFIX,qiyipic.com
+DOMAIN-SUFFIX,qy.net
 
 # 百度
 DOMAIN-SUFFIX,baidu.com
@@ -59,29 +60,29 @@ DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,taihe.com
 
 # 360
-DOMAIN-SUFFIX,qihucdn.com
 DOMAIN-SUFFIX,360.com
-DOMAIN-SUFFIX,so.com
 DOMAIN-SUFFIX,qhimg.com
 DOMAIN-SUFFIX,qhimgs4.com
 DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,qihucdn.com
+DOMAIN-SUFFIX,so.com
 
 # 七牛
 DOMAIN-SUFFIX,qiniu.com
-DOMAIN-SUFFIX,qiniudn.com
 DOMAIN-SUFFIX,qiniucdn.com
+DOMAIN-SUFFIX,qiniudn.com
 
 # 又拍云
 DOMAIN-SUFFIX,upyun.com
 
 # YY
-DOMAIN-SUFFIX,yy.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,msstatic.com
+DOMAIN-SUFFIX,yy.com
 
 # 星域云（迅雷）
-DOMAIN-SUFFIX,xycloud.com
 DOMAIN-SUFFIX,xycdn.com
+DOMAIN-SUFFIX,xycloud.com
 
 # 蓝汛
 DOMAIN-SUFFIX,chinacache.com
@@ -93,6 +94,9 @@ DOMAIN-SUFFIX,juejin.im
 DOMAIN-SUFFIX,xitu.io
 
 # 哔哩哔哩
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.com
 
 # 什么值得买
@@ -103,8 +107,8 @@ DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 
 # 美团
-DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
 
 # 抖音
 DOMAIN-SUFFIX,aweme.snssdk.com
@@ -130,6 +134,6 @@ DOMAIN-SUFFIX,panda.tv
 DOMAIN-SUFFIX,sogou.com
 
 # 其他
-DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,hnol.net
+DOMAIN-SUFFIX,ip138.com
+DOMAIN-SUFFIX,ipip.net
