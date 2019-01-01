@@ -1,16 +1,19 @@
 # --- General Anti-GFW ---
+
 # >> Apple
 DOMAIN-SUFFIX,appsto.re
+DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,beta.itunes.apple.com
 DOMAIN,books.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
+DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
-DOMAIN,api-glb-sea.smoot.apple.com
-USER-AGENT,AppleNews*
+
 # >> Google
 DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,autodraw.com
 DOMAIN-SUFFIX,capitalg.com
 DOMAIN-SUFFIX,certificate-transparency.org
@@ -21,9 +24,11 @@ DOMAIN-SUFFIX,chromium.org
 DOMAIN-SUFFIX,creativelab5.com
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,dialogflow.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,godoc.org
 DOMAIN-SUFFIX,golang.org
@@ -34,7 +39,6 @@ DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,madewithcode.com
 DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,admin.recaptcha.net
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,shattered.io
 DOMAIN-SUFFIX,synergyse.com
@@ -51,13 +55,19 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+
 # >> Other
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,newsblur.com
+DOMAIN-SUFFIX,520cc.cc
 DOMAIN,ccmdl.adobe.com
-USER-AGENT,Roam* // JegoTrip
+DOMAIN,media.steampowered.com
+DOMAIN,wego.here.com
+DOMAIN-KEYWORD,github
+USER-AGENT,Roam*
+
 # >> Telegram
 DOMAIN-SUFFIX,telegra.ph
 IP-CIDR,91.108.4.0/22,no-resolve
@@ -65,4 +75,5 @@ IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+
 # --- End of General Anit-GFW Section ---
