@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,youku.com
 
 # 微博
 DOMAIN-SUFFIX,miaopai.com
+DOMAIN-SUFFIX,sinaimg.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 
@@ -81,6 +82,7 @@ DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,yy.com
 
 # 星域云（迅雷）
+DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,xycdn.com
 DOMAIN-SUFFIX,xycloud.com
 
@@ -98,6 +100,7 @@ DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,bilibili.cn
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,hdslb.com
 
 # 什么值得买
 DOMAIN-SUFFIX,smzdm.com
@@ -133,7 +136,18 @@ DOMAIN-SUFFIX,panda.tv
 # 搜狗
 DOMAIN-SUFFIX,sogou.com
 
+# 威锋
+DOMAIN-SUFFIX,feng.com
+
+# CloudXNS
+DOMAIN-SUFFIX,cloudxns.net
+
 # 其他
+DOMAIN-SUFFIX,chn-ix.net
+DOMAIN-SUFFIX,fir.im
 DOMAIN-SUFFIX,hnol.net
 DOMAIN-SUFFIX,ip138.com
 DOMAIN-SUFFIX,ipip.net
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com
