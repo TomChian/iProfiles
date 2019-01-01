@@ -130,7 +130,6 @@ DOMAIN-SUFFIX,quixdtrk.com
 DOMAIN-SUFFIX,rayjump.com
 DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,scorecardresearch.com
-DOMAIN-SUFFIX,segment.com
 DOMAIN-SUFFIX,serving-sys.com
 DOMAIN-SUFFIX,simplepath.com
 DOMAIN-SUFFIX,skimresources.com
@@ -609,5 +608,4 @@ DOMAIN-SUFFIX,yihuifu.cn
 DOMAIN-SUFFIX,yuanchengxiezuo.com
 DOMAIN-SUFFIX,zbrushcn.com
 DOMAIN-SUFFIX,zhzzx.com
-
 # --- End of Blacklist Section
