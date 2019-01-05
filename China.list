@@ -49,10 +49,8 @@ DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN,ip.bjango.com
 
-# > Internet Speed Test
-DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,netspeedtestmaster.com
-DOMAIN-SUFFIX,speedtest.net
+# >> Stream
+DOMAIN-SUFFIX,jstartkan.com
 
 # >> Others
 DOMAIN-SUFFIX,akadns.net
