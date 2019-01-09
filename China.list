@@ -41,6 +41,7 @@ DOMAIN-SUFFIX,zmzapi.net
 DOMAIN-SUFFIX,zmzfile.com
 
 # > IP Query
+DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,ip-cdn.com
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ip.la
