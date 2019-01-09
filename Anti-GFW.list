@@ -65,8 +65,8 @@ DOMAIN-SUFFIX,520cc.cc
 DOMAIN,ccmdl.adobe.com
 DOMAIN,media.steampowered.com
 DOMAIN,wego.here.com
-DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,majsoul.union-game.com
+DOMAIN-KEYWORD,github
 USER-AGENT,Roam*
 
 # >> Telegram
