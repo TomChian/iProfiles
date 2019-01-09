@@ -48,6 +48,10 @@ DOMAIN-SUFFIX,ipv6-test.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,whatismyip.com
 DOMAIN,ip.bjango.com
+DOMAIN-SUFFIX,ipip.net
+
+# >> Stream
+DOMAIN-SUFFIX,jstarkan.com
 
 # >> Others
 DOMAIN-SUFFIX,akadns.net
