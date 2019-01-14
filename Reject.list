@@ -121,7 +121,6 @@ DOMAIN-SUFFIX,odb.outbrain.com
 DOMAIN-SUFFIX,offerstrack.net
 DOMAIN-SUFFIX,omtrdc.net
 DOMAIN-SUFFIX,outbrain.com
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,parsely.com
 DOMAIN-SUFFIX,peak-adx.com
 DOMAIN-SUFFIX,personaly.click
@@ -209,8 +208,10 @@ DOMAIN,log.ys7.com
 DOMAIN,logs.chelaile.net.cn
 DOMAIN,mopnativeadv.037201.com
 DOMAIN,nativeadv.dftoutiao.com
+DOMAIN,pagead2.googlesyndication.com
 DOMAIN,report.jpush.cn
 DOMAIN,s0.2mdn.net
+DOMAIN,sp0.baidu.com
 DOMAIN,static.jpush.cn
 DOMAIN,static.vuevideo.net
 DOMAIN,stats.jpush.cn
@@ -224,6 +225,7 @@ DOMAIN,tracklog.58.com
 DOMAIN,traffic.mogujie.com
 DOMAIN,wgo.mmstat.com
 DOMAIN,wmlog.meituan.com
+DOMAIN,zz.bdstatic.com
 
 # >> Alibaba
 DOMAIN,acs4baichuan.m.taobao.com
