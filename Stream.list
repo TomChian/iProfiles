@@ -34,14 +34,14 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,happyon.jp
 
-# >> Jwplayer
-DOMAIN,content.jwplatform.com
-DOMAIN,videos-f.jwpsrv.com
-
 # >> JOOX
 USER-AGENT,WeMusic*
 USER-AGENT,JOOX*
 DOMAIN-SUFFIX,joox.com
+
+# >> Jwplayer
+DOMAIN,content.jwplatform.com
+DOMAIN,videos-f.jwpsrv.com
 
 # >> myTV Super
 USER-AGENT,mytv*
