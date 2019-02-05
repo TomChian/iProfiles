@@ -57,16 +57,22 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 
 # >> Other
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,newsblur.com
-DOMAIN-SUFFIX,520cc.cc
 DOMAIN,ccmdl.adobe.com
 DOMAIN,media.steampowered.com
 DOMAIN,wego.here.com
+
 DOMAIN-SUFFIX,majsoul.union-game.com
+
+DOMAIN-SUFFIX,520cc.cc
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,majsoul.union-game.com
+DOMAIN-SUFFIX,newsblur.com
+
 DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,github
+
 USER-AGENT,Roam*
 
 # >> Telegram
