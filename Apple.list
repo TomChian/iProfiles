@@ -1,18 +1,22 @@
-# --- Apple Service --
-DOMAIN,audio-ssl.itunes.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN,itunes.apple.com
+# >> App Store
+DOMAIN-SUFFIX,itunes.apple.com,Apple Services
 
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
+# >> Apple Music
+DOMAIN,aod.itunes.apple.com,Apple Services
+DOMAIN,audio.itunes.apple.com,Apple Services
+DOMAIN,audio-ssl.itunes.apple.com,Apple Services
+DOMAIN,streamingaudio.itunes.apple.com,Apple Services
 
-USER-AGENT,AppleNews* // Apple News
+# >> Apple
+DOMAIN,gspe1-ssl.ls.apple.com,Apple Services
+
+DOMAIN-SUFFIX,aaplimg.com,Apple Services
+DOMAIN-SUFFIX,apple.co,Apple Services
+DOMAIN-SUFFIX,apple.com,Apple Services
+DOMAIN-SUFFIX,appstore.com,Apple Services
+DOMAIN-SUFFIX,cdn-apple.com,Apple Services
+DOMAIN-SUFFIX,crashlytics.com,Apple Services
+DOMAIN-SUFFIX,icloud.com,Apple Services
+DOMAIN-SUFFIX,icloud-content.com,Apple Services
+DOMAIN-SUFFIX,me.com,Apple Services
+DOMAIN-SUFFIX,mzstatic.com,Apple Services

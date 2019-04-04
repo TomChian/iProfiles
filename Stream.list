@@ -7,6 +7,9 @@ DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 DOMAIN,linear-abematv.akamaized.net
 
+# >> Apple TV
+DOMAIN,ocvideo.apple.com
+
 # >> Bahamut
 USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
