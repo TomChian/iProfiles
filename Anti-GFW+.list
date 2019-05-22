@@ -1,5 +1,8 @@
 # --- Enhanced Anti-GFW ---
 
+# >> Cloudflare
+DOMAIN-SUFFIX,cloudflareresolve.com,force-remote-dns
+
 # >> rixCloud
 DOMAIN-SUFFIX,rix.ee,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.com,force-remote-dns
