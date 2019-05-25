@@ -1,58 +1,101 @@
 # --- Stream Service ---
 
 # >> AbemaTV
-USER-AGENT,AbemaTV*
+DOMAIN,abematv.akamaized.net
+DOMAIN,ds-linear-abematv.akamaized.net
+DOMAIN,ds-vod-abematv.akamaized.net
+DOMAIN,linear-abematv.akamaized.net
+
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
-DOMAIN,linear-abematv.akamaized.net
+
+USER-AGENT,AbemaTV*
+
+# >> Amazon Prime Video
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
 
 # >> Apple TV
 DOMAIN,ocvideo.apple.com
 
 # >> Bahamut
-USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,hinet.net
 
+USER-AGENT,Anime*
+
 # >> BBC
-USER-AGENT,BBCiPlayer*
-DOMAIN-SUFFIX,bbc.co.uk,force-remote-dns
-DOMAIN-SUFFIX,bbci.co.uk,force-remote-dns
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 
+DOMAIN-SUFFIX,bbc.co.uk,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,force-remote-dns
+
+USER-AGENT,BBCiPlayer*
+
 # >> encoreTVB
+DOMAIN,content.jwplatform.com
+DOMAIN,videos-f.jwpsrv.com
+
+DOMAIN-SUFFIX,encoretvb.com
+
 USER-AGENT,encoreTVB*
 
+# >> Fox Now
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com
+
+USER-AGENT,FOX%20NOW*
+
+# >> Fox+ (HK|TW|SG)
+DOMAIN,dashasiafox.akamaized.netflix
+DOMAIN,staticasiafox.akamaized.net
+
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,theplatform.com
+
+USER-AGENT,FOXPlus*
+
 # >> HBO
-USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hbogo.com
 
+USER-AGENT,HBO%20NOW*
+
 # >> Hulu
-USER-AGENT,Hulu*
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hulustream.com
+
+USER-AGENT,Hulu*
 
 # >> JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
 DOMAIN-SUFFIX,joox.com
+
+USER-AGENT,JOOX*
+USER-AGENT,WeMusic*
 
 # >> Jwplayer
 DOMAIN,content.jwplatform.com
 DOMAIN,videos-f.jwpsrv.com
 
+# >> KKBOX
+DOMAIN-SUFFIX,kfs.ios
+DOMAIN-SUFFIX,kkbox.com
+DOMAIN-SUFFIX,kkbox.com.tw
+
 # >> myTV Super
-USER-AGENT,mytv*
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
+USER-AGENT,mytv*
+
 # >> Netflix
-USER-AGENT,Argo*
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
 DOMAIN-SUFFIX,nflxext.com
@@ -61,17 +104,36 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
-# >> Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
+USER-AGENT,Argo*
 
-# >> YouTube
-USER-AGENT,*youtube*
+# >> Pandora
+DOMAIN-SUFFIX,pandora.com
+
+# >> PBS
+USER-AGENT,PBS*
+DOMAIN-SUFFIX,pbs.org
+
+# >> Spotify
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,spotify.com
+
+USER-AGENT,Spotify*
+
+# >> ViuTV
+DOMAIN,api.viu.now.com
+DOMAIN-SUFFIX,viu.tv
+USER-AGENT,ViuTV*
+
+# >> Youtube
+DOMAIN,youtubei.googleapis.com
+
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+
+USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,force-remote-dns
-DOMAIN,youtubei.googleapis.com,force-remote-dns
+USER-AGENT,YouTubeMusic*
 
 # --- End of Stream Service Section ---
