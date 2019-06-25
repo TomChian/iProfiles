@@ -443,6 +443,9 @@ DOMAIN,imp.optaim.com
 DOMAIN,v2.reachmax.cn
 DOMAIN,track.sohu.com
 
+# >> JD
+URL-REGEX,^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
+
 # >> Tencent
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
