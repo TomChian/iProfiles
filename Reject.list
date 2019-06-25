@@ -338,6 +338,10 @@ DOMAIN,mdrecv.app.cntvwb.cn
 DOMAIN,sdapprecv.app.cntvwb.cn
 DOMAIN,vdapprecv.app.cntvwb.cn
 
+# >> Didi
+
+URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
+
 # >> ele
 DOMAIN,log.star.ele.me
 
