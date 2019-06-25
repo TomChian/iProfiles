@@ -407,8 +407,8 @@ DOMAIN,n.3g.163.com
 DOMAIN,nex.163.com
 DOMAIN,yt-adp.nosdn.127.net
 
-URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
-URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
+URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
+URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 
 # >> PConline
 DOMAIN,ad-analysis.pconline.com.cn
@@ -464,6 +464,10 @@ DOMAIN,stat.10jqka.com.cn
 DOMAIN,adtrack.ucweb.com
 DOMAIN,applogios.uc.cn
 DOMAIN,track.uc.cn
+
+# > WeChat
+
+URL-REGEX,^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
 
 # >> Xiaomi
 DOMAIN-SUFFIX,ad.xiaomi.com
