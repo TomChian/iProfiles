@@ -483,6 +483,18 @@ DOMAIN,iyes.youku.com
 DOMAIN,apppv.zol.com.cn
 DOMAIN,pvnapp.zol.com.cn
 
+# >> Zhihu
+
+DOMAIN,mqtt.zhihu.com
+DOMAIN-SUFFIX,xdrig.com
+URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|topstory/hot-lists|market/popover|mqtt)
+URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
+URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
+URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
+USER-AGENT,AVOS*
+AND,((USER-AGENT,ZhihuHybrid*), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,lens.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
+
 # --- End of Anti-AD Section ---
 
 # --- Anti-Hijacking ---
