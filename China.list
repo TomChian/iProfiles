@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,blizzard.com
 DOMAIN,blzddist1-a.akamaihd.net
 
 # >> Tencent
+DOMAIN,vi.l.qq.com
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,WeChat*
 DOMAIN-SUFFIX,qq.com
