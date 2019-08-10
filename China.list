@@ -153,6 +153,11 @@ DOMAIN-KEYWORD,amplifi
 USER-AGENT,NeteaseMusic*
 USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 
+# Rainway
+DOMAIN,ipv4.rainway.com
+DOMAIN,ipv6.rainway.com
+DOMAIN,cya.gg
+
 # Client
 
 # >> Proxy
