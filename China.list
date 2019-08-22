@@ -9,6 +9,8 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,sfx.ms
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-KEYWORD,officecdn
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
 
 DOMAIN,officecdn-microsoft-com.akamaized.net
 
