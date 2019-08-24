@@ -506,7 +506,7 @@ DOMAIN,pvnapp.zol.com.cn
 
 DOMAIN,mqtt.zhihu.com
 DOMAIN-SUFFIX,xdrig.com
-URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|topstory/hot-lists|market/popover|mqtt)
+URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|ab|banners|market/popover|mqtt)
 URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
 URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
 URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
