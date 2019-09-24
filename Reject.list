@@ -449,7 +449,6 @@ URL-REGEX,^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,rqd.qq.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,btrace.qq.com
