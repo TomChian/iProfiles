@@ -76,6 +76,7 @@ DOMAIN-SUFFIX,gate.io,force-remote-dns
 DOMAIN-SUFFIX,goodreads.com,force-remote-dns
 DOMAIN-SUFFIX,hbg.com,force-remote-dns
 DOMAIN-SUFFIX,huobi.pro,force-remote-dns
+DOMAIN-SUFFIX,ifixit.com,force-remote-dns
 DOMAIN-SUFFIX,initiummall.com,force-remote-dns
 DOMAIN-SUFFIX,issuu.com,force-remote-dns
 DOMAIN-SUFFIX,jkforum.net,force-remote-dns
