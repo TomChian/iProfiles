@@ -7,6 +7,7 @@ DOMAIN,ds-vod-abematv.akamaized.net
 DOMAIN,linear-abematv.akamaized.net
 
 DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
@@ -19,6 +20,10 @@ DOMAIN-SUFFIX,channel4.com
 USER-AGENT,All4*
 
 # >> Amazon Prime Video
+DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
 
 USER-AGENT,InstantVideo.US*
@@ -46,13 +51,29 @@ DOMAIN-SUFFIX,bbci.co.uk,force-remote-dns
 USER-AGENT,BBCiPlayer*
 
 # >> DAZN
+DOMAIN,d151l6v8er5bdm.cloudfront.net
+
+DOMAIN-KEYWORD,voddazn
+
+DOMAIN-SUFFIX,dazn-api.com
 DOMAIN-SUFFIX,dazn.com
+
 USER-AGENT,DAZN*
 
 # >> Deezer
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
 USER-AGENT,Deezer*
+
+# > Disney+
+DOMAIN,cdn.registerdisney.go.com
+
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,dssott.com
+
+USER-AGENT,Disney+*
 
 # >> encoreTVB
 DOMAIN,bcbolt446c5271-a.akamaihd.net
@@ -84,15 +105,25 @@ USER-AGENT,FOXPlus*
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
+DOMAIN,dai3fd1oh325y.cloudfront.net
+DOMAIN,hboasia1-i.akamaihd.net
+DOMAIN,hboasia2-i.akamaihd.net
+DOMAIN,hboasia3-i.akamaihd.net
+DOMAIN,hboasia4-i.akamaihd.net
+DOMAIN,hboasia5-i.akamaihd.net
 DOMAIN,manifest.prod.boltdns.net
+DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
 
 DOMAIN-SUFFIX,hbo.com
 DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
+DOMAIN-SUFFIX,hbonow.com
 
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+USER-AGENT,HBO%20NOW*
 USER-AGENT,HBO*
 
 # >> Hulu
@@ -143,6 +174,7 @@ USER-AGENT,LINE%20TV*
 # >> LiTV
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,litv.tv
+
 # >> My5
 DOMAIN,d349g9zuie06uo.cloudfront.net
 DOMAIN-SUFFIX,channel5.com
@@ -177,6 +209,14 @@ IP-CIDR,198.45.48.0/20,no-resolve
 
 USER-AGENT,Argo*
 
+# >> niconico
+DOMAIN-SUFFIX,dmc.nico
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
+
+USER-AGENT,Niconico*
+
 # >> Pandora
 DOMAIN-SUFFIX,pandora.com
 USER-AGENT,Pandora*
@@ -190,13 +230,27 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 
+# >> SoundCloud
+DOMAIN-SUFFIX,p-cdn.us
+DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soundcloud.com
+
+USER-AGENT,SoundCloud*
+
 # >> Spotify
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotify.com
 
+IP-CIDR,35.186.224.47/32,no-resolve
+
 USER-AGENT,Spotify*
+
+# >> TaiwanGood
+DOMAIN,hamifans.emome.net
+DOMAIN-SUFFIX,skyking.com.tw
+USER-AGENT,TaiwanGood*
 
 # >> TIDAL
 USER-AGENT,TIDAL*
@@ -215,7 +269,7 @@ DOMAIN,dfp6rglgjqszk.cloudfront.net
 
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
-USER-AGENT,ViuTV*
+USER-AGENT,Viu*
 
 # >> Youtube
 DOMAIN,youtubei.googleapis.com
