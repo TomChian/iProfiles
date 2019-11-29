@@ -187,6 +187,10 @@ DOMAIN-SUFFIX,jstarkan.com
 # >> Tencent
 DOMAIN,vi.l.qq.com
 
+# >> TeslaMap
+DOMAIN-SUFFIX,52tesla.com
+USER-AGENT,TeslaMap
+
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,igamecj.com
