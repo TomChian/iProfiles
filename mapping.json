@@ -4,6 +4,7 @@
     "surge3_stream_services": "Stream.list",
     "surge3_domestic": "China.list",
     "surge3_apple_services": "Apple.list",
+    "surge3_netease_music": "Netease_Music.list",
     "surge3_global": "Anti-GFW.list",
     "surge3_global_plus": "Anti-GFW+.list"
 }
