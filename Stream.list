@@ -1,5 +1,9 @@
 # --- Stream Service ---
 
+# >> 4gtv
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
+
 # >> AbemaTV
 DOMAIN,abematv.akamaized.net
 DOMAIN,ds-linear-abematv.akamaized.net
