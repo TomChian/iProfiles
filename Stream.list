@@ -260,6 +260,11 @@ USER-AGENT,TaiwanGood*
 USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
 
+# >> TikTok
+DOMAIN,api-h2.tiktokv.com
+DOMAIN,api2-16-h2.musical.ly
+DOMAIN,api2-19-h2.musical.ly
+
 # >> Twitch
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
