@@ -57,6 +57,9 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 
+# >> Microsoft Overseas
+DOMAIN-SUFFIX,office365.com
+
 # >> Other
 DOMAIN,ccmdl.adobe.com
 DOMAIN,media.steampowered.com
