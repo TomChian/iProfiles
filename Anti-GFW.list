@@ -58,8 +58,8 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 
 # >> Microsoft Overseas
-DOMAIN,login.windows.net
 DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,windows.net
 
 # >> Other
 DOMAIN,ccmdl.adobe.com
