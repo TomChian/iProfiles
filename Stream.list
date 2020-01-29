@@ -24,6 +24,14 @@ DOMAIN-SUFFIX,channel4.com
 USER-AGENT,All4*
 
 # >> Amazon Prime Video
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+
+DOMAIN-KEYWORD,avoddashs
+
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
@@ -32,7 +40,6 @@ DOMAIN-SUFFIX,primevideo.com
 
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*
-
 # >> Apple TV
 DOMAIN,ocvideo.apple.com
 
@@ -96,7 +103,7 @@ DOMAIN-SUFFIX,uplynk.com
 
 USER-AGENT,FOX%20NOW*
 
-# >> Fox+ (HK|TW|SG)
+# >> Fox+
 DOMAIN,dashasiafox.akamaized.netflix
 DOMAIN,staticasiafox.akamaized.net
 
@@ -133,10 +140,16 @@ USER-AGENT,HBO*
 # >> Hulu
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 
 USER-AGENT,Hulu*
+
+# >> HWTV
+USER-AGENT,HWTVMobile*
+DOMAIN-SUFFIX,5itv.tv
+DOMAIN-SUFFIX,ocnttv.com
 
 # >> ITV
 DOMAIN,itvpnpmobile-a.akamaihd.net
@@ -195,6 +208,16 @@ USER-AGENT,mytv*
 # >> Netflix
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,netflixdnstest0.com
+DOMAIN-SUFFIX,netflixdnstest1.com
+DOMAIN-SUFFIX,netflixdnstest2.com
+DOMAIN-SUFFIX,netflixdnstest3.com
+DOMAIN-SUFFIX,netflixdnstest4.com
+DOMAIN-SUFFIX,netflixdnstest5.com
+DOMAIN-SUFFIX,netflixdnstest6.com
+DOMAIN-SUFFIX,netflixdnstest7.com
+DOMAIN-SUFFIX,netflixdnstest8.com
+DOMAIN-SUFFIX,netflixdnstest9.com
 DOMAIN-SUFFIX,nflxext.com
 DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
@@ -242,6 +265,8 @@ DOMAIN-SUFFIX,soundcloud.com
 USER-AGENT,SoundCloud*
 
 # >> Spotify
+DOMAIN-KEYWORD,-spotify-com
+
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
@@ -262,13 +287,21 @@ DOMAIN-SUFFIX,tidal.com
 
 # >> TikTok
 DOMAIN,api-h2.tiktokv.com
-DOMAIN,api2-16-h2.musical.ly
 DOMAIN,api2-19-h2.musical.ly
 
+DOMAIN-KEYWORD,-tiktokcdn-com
+
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokcdn.com
+
+USER-AGENT,TikTok*
+
 # >> Twitch
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
-DOMAIN-SUFFIX,ttvnw.net
 
 # >> ViuTV
 DOMAIN,api.viu.now.com
