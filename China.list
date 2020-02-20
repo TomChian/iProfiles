@@ -223,6 +223,7 @@ DOMAIN-SUFFIX,staticdn.net
 DOMAIN-SUFFIX,wangsu.com
 
 # >> Others
+DOMAIN,cn.download.nvidia.com
 DOMAIN-KEYWORD,amplifi
 
 DOMAIN-SUFFIX,360in.com
