@@ -6,6 +6,7 @@ DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,audiocontentdownload.apple.com
 DOMAIN,beta.itunes.apple.com
 DOMAIN,books.itunes.apple.com
+DOMAIN,embed.music.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
