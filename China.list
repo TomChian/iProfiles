@@ -132,6 +132,7 @@ DOMAIN,officecdn-microsoft-com.akamaized.net
 DOMAIN-KEYWORD,officecdn
 
 DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,microsoftstore.com.cn
 DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msftncsi.com
