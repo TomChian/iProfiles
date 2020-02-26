@@ -10,6 +10,8 @@ DOMAIN,embed.music.apple.com
 DOMAIN,hls.itunes.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
 
 # >> Google
 DOMAIN-SUFFIX,abc.xyz
