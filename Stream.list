@@ -324,4 +324,8 @@ USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
 
+# >> SHOWTIME
+DOMAIN-SUFFIX,sho.com
+DOMAIN-SUFFIX,showtime.com
+
 # --- End of Stream Service Section ---
