@@ -1,2 +1,2 @@
-# rixCloud-Surge3_Rules
-rixCloud Unified Rules for Surge 3
+# AD-Rules
+ 去广告规则增补自用
