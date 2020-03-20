@@ -1,2 +1,2 @@
-# AD-Rules
- 去广告规则增补自用
+# ExtraRules
+ Extra rules provider just for self use.
