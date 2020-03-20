@@ -16,6 +16,9 @@ DOMAIN,dl.google.com
 
 DOMAIN,mtalk.google.com
 
+# > Proxy websites
+DOMAIN-SUFFIX,letcn.*
+
 # > Tencent
 
 DOMAIN,livew.l.qq.com
