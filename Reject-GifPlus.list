@@ -9,3 +9,12 @@
 # DOMAIN,
 # DOMAIN-SUFFIX,
 # DOMAIN-KEYWORD,
+# >> 360
+DOMAIN,api.360pay.cn
+DOMAIN,commercial.shouji.360.cn
+DOMAIN,huodong.ios.shouji.360.cn
+DOMAIN,msoftdl.ssl.qihucdn.com
+DOMAIN,notice.shouji.360.cn
+DOMAIN,p.s.360.cn
+DOMAIN,sdk.360.cn
+DOMAIN,wallet.shouji.360.cn
