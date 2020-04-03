@@ -1,2 +1,1 @@
-# ExtraRules
- Extra rules provider just for self use.
+JUST FOR SELF USE.
