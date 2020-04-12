@@ -3,6 +3,7 @@
 # >> Apple
 DOMAIN-SUFFIX,appsto.re
 DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,apps.apple.com
 DOMAIN,audiocontentdownload.apple.com
 DOMAIN,beta.itunes.apple.com
 DOMAIN,books.itunes.apple.com
@@ -12,6 +13,8 @@ DOMAIN,itunes.apple.com
 DOMAIN,lookup-api.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
+DOMAIN,testflight.apple.com
+PROCESS-NAME,LookupViewService
 
 # >> Google
 DOMAIN-SUFFIX,abc.xyz
@@ -85,7 +88,12 @@ DOMAIN-KEYWORD,github
 USER-AGENT,Roam*
 
 # >> Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
@@ -132,13 +140,26 @@ DOMAIN-SUFFIX,whatsapp.net,force-remote-dns
 DOMAIN-SUFFIX,oculus.com,force-remote-dns
 DOMAIN-SUFFIX,oculuscdn.com,force-remote-dns
 DOMAIN-KEYWORD,facebook,force-remote-dns
+IP-CIDR,3.123.36.126/32,no-resolve
+IP-CIDR,35.157.215.84/32,no-resolve
+IP-CIDR,35.157.217.255/32,no-resolve
+IP-CIDR,52.58.209.134/32,no-resolve
+IP-CIDR,54.93.124.31/32,no-resolve
+IP-CIDR,54.162.243.80/32,no-resolve
+IP-CIDR,54.173.34.141/32,no-resolve
+IP-CIDR,54.235.23.242/32,no-resolve
+IP-CIDR,169.45.248.118/32,no-resolve
 
 # >> Twitter
+DOMAIN-SUFFIX,pscp.tv,force-remote-dns
+DOMAIN-SUFFIX,periscope.tv,force-remote-dns
 DOMAIN-SUFFIX,t.co,force-remote-dns
 DOMAIN-SUFFIX,twimg.co,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,force-remote-dns
 DOMAIN-SUFFIX,twitpic.com,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,force-remote-dns
+DOMAIN-SUFFIX,vine.co,force-remote-dns
+DOMAIN-KEYWORD,twitter,force-remote-dns
 
 # >> Line
 DOMAIN-SUFFIX,line.me,force-remote-dns

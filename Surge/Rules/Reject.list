@@ -276,6 +276,12 @@ DOMAIN,wgo.mmstat.com
 DOMAIN,wmlog.meituan.com
 DOMAIN,zz.bdstatic.com
 
+# >> Apple
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+
 # >> Alibaba
 DOMAIN,acs4baichuan.m.taobao.com
 DOMAIN,adash.m.taobao.com
@@ -334,6 +340,16 @@ URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
 URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
 AND,((USER-AGENT,bili*), (NOT,((DOMAIN-SUFFIX,bilibili.com))), (NOT,((DOMAIN-SUFFIX,hdslb.com))), (NOT,((DOMAIN-SUFFIX,wo.cn))))
 
+# >> ChinaTelecom
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+
+# >> 车来了
+DOMAIN,atrace.chelaile.net.cn
+DOMAIN,logs.chelaile.net.cn
+
 # >> CNTV
 DOMAIN,galaxy.bjcathay.com
 DOMAIN,mdrecv.app.cntvwb.cn
@@ -346,6 +362,12 @@ URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{
 
 # >> ele
 DOMAIN,log.star.ele.me
+
+# >> Google
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
 
 # >> HunanTV
 DOMAIN-SUFFIX,da.mgtv.com
@@ -368,7 +390,12 @@ IP-CIDR,124.192.153.42/32,no-resolve
 # >> Kingsoft
 DOMAIN,ad-stat.ksosoft.com
 DOMAIN,img.auction-ads.wpscdn.cn
+DOMAIN,counter.kingsoft.com
+DOMAIN,counter.ksosoft.com
 DOMAIN,minfo.wps.cn
+DOMAIN,mobad.ijinshan.com
+DOMAIN,ups.ksmobile.net
+DOMAIN,ws.ksmobile.net
 
 # >> Kugou and Kuwo
 DOMAIN,adserviceretry.kugou.com
@@ -381,6 +408,12 @@ DOMAIN,kgmobilestatbak.kugou.com
 DOMAIN,mobilelog.kugou.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
+
+# >> 乐播投屏
+DOMAIN,ad.hpplay.cn
+DOMAIN,adcdn.hpplay.cn
+DOMAIN,adeng.hpplay.cn
+DOMAIN,rp.hpplay.cn
 
 # >> LeTV
 DOMAIN-SUFFIX,webp2p.letv.com
@@ -398,6 +431,8 @@ DOMAIN,v1.log.moji.com
 # >> Netease
 DOMAIN,ad.bn.netease.com
 DOMAIN,ad.yixin.im
+DOMAIN,admusicpic.music.126.net
+DOMAIN,gorgon.youdao.com
 DOMAIN,iadmat.nosdn.127.net
 DOMAIN,iadmusicmat.music.126.net
 DOMAIN,iadmusicmatvideo.music.126.net
@@ -408,6 +443,7 @@ DOMAIN,log-yex.youdao.com
 DOMAIN,n.3g.163.com
 DOMAIN,nex.163.com
 DOMAIN,yt-adp.nosdn.127.net
+DOMAIN,yt-adp.ws.126.net
 
 URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
 URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
@@ -430,6 +466,8 @@ DOMAIN,asimgs.pplive.cn
 DOMAIN,de.as.pptv.com
 
 # >> Sina
+DOMAIN-SUFFIX,beacon.sina.com.cn
+DOMAIN,adimg.vue.weibo.com
 DOMAIN,u1.img.mobile.sina.cn
 DOMAIN,sax.sina.com.cn
 DOMAIN,saxs.sina.com.cn
@@ -449,16 +487,29 @@ URL-REGEX,^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$
 DOMAIN-SUFFIX,bugly.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,rqd.qq.com
-DOMAIN,mi.gdt.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
 DOMAIN,btrace.qq.com
+DOMAIN,mi.gdt.qq.com
 DOMAIN,mtrace.qq.com
 DOMAIN,oth.eve.mdt.qq.com
 DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
 DOMAIN,pingma.qq.com
 DOMAIN,pingtcss.qq.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,tajs.qq.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+
+# >> The Paper
+DOMAIN,admonitor.thepaper.cn
+DOMAIN,adpai.thepaper.cn
+DOMAIN,imgadpai.thepaper.cn
 
 # >> TikTok (include China / Internation Version)
 URL-REGEX,^https:\/\/[a-zA-Z]{2}\.snssdk\.com\/api\/ad\/
@@ -472,21 +523,33 @@ DOMAIN,adtrack.ucweb.com
 DOMAIN,applogios.uc.cn
 DOMAIN,track.uc.cn
 
-# > WeChat
+# >> WeChat
 
 URL-REGEX,^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
+
+# >> 小红书
+DOMAIN,ads-img-qc.xhscdn.com
+DOMAIN,ads-video-qc.xhscdn.com
+DOMAIN,t-ads.xiaohongshu.com
 
 # >> Xiaomi
 DOMAIN-SUFFIX,ad.xiaomi.com
 DOMAIN-SUFFIX,ad.intl.xiaomi.com
+DOMAIN-SUFFIX,admob.xiaomi.com
 DOMAIN-SUFFIX,data.mistat.xiaomi.com
 DOMAIN-SUFFIX,tracking.miui.com
+DOMAIN,adv.sec.miui.com
+DOMAIN,adv.sec.intl.miui.com
 DOMAIN,adv.sec.miui.com
 DOMAIN,o2o.api.xiaomi.com
 
 # >> XiMaLaYa
 DOMAIN,ad.ximalaya.com
+DOMAIN,adbs.ximalaya.com
 DOMAIN,adse.ximalaya.com
+DOMAIN,adse.wsa.ximalaya.com
+DOMAIN,adbehavior.wsa.ximalaya.com
+DOMAIN,adsebs.ximalaya.com
 
 # >> Xuneli
 DOMAIN,adsp.xunlei.com
@@ -513,6 +576,7 @@ AND,((USER-AGENT,ZhihuHybrid*), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN,st
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN,api.zhihu.com))), (NOT,((DOMAIN,lens.zhihu.com))), (NOT,((DOMAIN,static.zhihu.com))), (NOT,((DOMAIN,www.zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com))))
 
 # — End of Anti-AD Section —
+
 
 # — Anti-Hijacking —
 DOMAIN-SUFFIX,17gouwuba.com
@@ -649,6 +713,7 @@ IP-CIDR,220.115.251.25/32,no-resolve
 IP-CIDR,222.73.156.235/32,no-resolve
 
 # — End of Anti-Hijacking Section — 
+
 
 # — Blacklist —
 
