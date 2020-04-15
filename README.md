@@ -1,6 +1,6 @@
 <h1 align="center">
 
-iRule
+iProfiles
 
 </h1>
 
