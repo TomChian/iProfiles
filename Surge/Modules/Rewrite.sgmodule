@@ -1,4 +1,4 @@
-# 预存
+# Rewrite
 # https://git.io/iKCloud_Surge_Rewrite
 #!name=URL Rewrite
 #!desc=URL Rewrite 302 & Remove ads
@@ -85,7 +85,6 @@
 (?<=(carrier|account|sys|sim)_region=)cn in 307
 
 # CUSTOM URL
-
 
 
 # - - - Advertising Block - - -
