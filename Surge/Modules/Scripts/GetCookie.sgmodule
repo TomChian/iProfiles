@@ -1,4 +1,7 @@
-# 获取cookie
+
+#!name= GetCookie
+#!desc= 获取每日签到cookie
+#!system=ios
 # https://git.io/iKCloud_Surge_GetCookie
 
 [MITM]

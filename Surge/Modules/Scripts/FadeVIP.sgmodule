@@ -1,4 +1,7 @@
-# Fade VIP
+
+#!name= Fade VIP
+#!desc= 解锁部分软件VIP会员
+#!system=ios
 # https://git.io/iKCloud_Surge_FadeVIP
 
 [URL Rewrite]

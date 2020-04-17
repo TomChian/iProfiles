@@ -1,8 +1,7 @@
-# Rewrite 仅涵盖URL Reject部分
-# https://git.io/iKCloud_Surge_Rewrite
-#!name=URL Rewrite
-#!desc=URL Rewrite 302 & Remove ads
+#!name= Rewrite
+#!desc= 复写&重定向
 #!system=ios
+# ​https://git.io/iKCloud_Surge_Rewrite
 
 [URL Rewrite]
 # AbeamTV Unlock

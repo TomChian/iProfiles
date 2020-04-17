@@ -1,4 +1,7 @@
-# 去广告脚本
+
+#!name= AdBlock
+#!desc= 去除APP广告
+#!system=ios
 # https://git.io/iKCloud_Surge_AdBlock
 
 [Rule]
