@@ -9,46 +9,46 @@ hostname = account.wps.cn, api.interpreter.caiyun.com, api.jxedt.com, api.revenu
 
 [Script]
 # 彩云小译
-http-response https://api.interpreter.caiyunai.com/v1/user/  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/interpreter.caiyun.js
+Caiyun Interpreter = type=http-response,requires-body=1,max-size=0,pattern=https://api.interpreter.caiyunai.com/v1/user/,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/interpreter.caiyun.js
 # dayone日记高级版
-http-response https://dayone.me/api/v2/users/(receipt|account-status) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/DayOne.js
+DayOne = type=http-response,requires-body=1,max-size=0,pattern=https://dayone.me/api/v2/users/(receipt|account-status),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/DayOne.js
 # Instapaper
-http-response https://www.instapaper.com/api/subscription_status requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Instapaper.js
+Instapaper = type=http-response,requires-body=1,max-size=0,pattern=https://www.instapaper.com/api/subscription_status,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Instapaper.js
 # 驾校一点通
-http-response ^https:\/\/vipapi\.jxedt\.com\/vip\/check requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/JXYDT.js
+JXYDT = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/vipapi\.jxedt\.com\/vip\/check,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/JXYDT.js
 # 酷我音乐
-http-response ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.js
-http-request ^https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.download.js
+Kuwo Response = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.js
+Kuwo Request = type=http-request,requires-body=1,max-size=0,pattern=^https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.download.js
 # 马卡龙
-http-response https://app.api.versa-ai.com/pay/order/iap/check requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Makaron.js
+Makaron = type=http-response,requires-body=1,max-size=0,pattern=https://app.api.versa-ai.com/pay/order/iap/check,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Makaron.js
 # 内购
-http-response ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/In-app.purchase.js
+In-app Purchase = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/In-app.purchase.js
 # PDF Expert
-http-response https://(api|license|createpdf).(revenuecat|pdfexpert|acrobat).com/(v1|api/1.0/pdfexpert6|createpdf/api/users/me)/subscri(bers/|(ption(s|/refresh)))  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/PDF.js
+PDF Expert = type=http-response,requires-body=1,max-size=0,pattern=https://(api|license|createpdf).(revenuecat|pdfexpert|acrobat).com/(v1|api/1.0/pdfexpert6|createpdf/api/users/me)/subscri(bers/|(ption(s|/refresh))),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/PDF.js
 # Peak智客
-http-response https://billing.peakcloud.org/billing/2/user/me  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Peak.js
+Peak = type=http-response,requires-body=1,max-size=0,pattern=https://billing.peakcloud.org/billing/2/user/me,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Peak.js
 # 轻颜相机
-http-response https://(commerce-api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info)  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/QianyanCam.js
+Qingyan Cam = type=http-response,requires-body=1,max-size=0,pattern=https://(commerce-api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/QianyanCam.js
 # 人人视频
-http-response https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/rrtv.js
+RRTV VIP = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/rrtv.js
 # 石墨文档
-http-response https://api.shimo.im/users/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Shimo.js
+Shimo = type=http-response,requires-body=1,max-size=0,pattern=https://api.shimo.im/users/,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Shimo.js
 # Termius
-http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKangnir/iProfiles/Master/Surge/Scripts/Unlock/Termius.js
+Termius = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/,script-path=https://raw.githubusercontent.com/iKangnir/iProfiles/Master/Surge/Scripts/Unlock/Termius.js
 # Unfold
-http-response https://api.unfold.app/v1/ios/receipts requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Unfold.js
+Unfold = type=http-response,requires-body=1,max-size=0,pattern=https://api.unfold.app/v1/ios/receipts,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Unfold.js
 # 豌豆清单
-http-response https://www.40sishi.com/list/user/profile requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Bean.js
+Bean = type=http-response,requires-body=1,max-size=0,pattern=https://www.40sishi.com/list/user/profile,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Bean.js
 # 网易蜗牛读书
-http-response https://p.du.163.com/gain/readtime/info.json requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Snailread.js
+Snail Read = type=http-response,requires-body=1,max-size=0,pattern=https://p.du.163.com/gain/readtime/info.json,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Snailread.js
 # Working Copy
-http-response ^https:\/\/education\.github\.com\/api\/user$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/WorkingCopy.js
+Working Copy = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/education\.github\.com\/api\/user$,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/WorkingCopy.js
 # WPS
-http-response ^https?:\/\/account\.wps\.cn\/api\/users requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/WPS.js
+WPS VIP = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/account\.wps\.cn\/api\/users,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/WPS.js
 # Xmind
-http-response https:\/\/www\.xmind\.cn\/\_res\/devices requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Xmind.js
+Xmind = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Xmind.js
 # 有道云笔记
-http-response https://note.youdao.com/yws/(mapi/payment|api/self)  requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/note.youdao.js
+Youdao Note = type=http-response,requires-body=1,max-size=0,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/note.youdao.js
 # 育学园
-http-response https:\/\/yxy.*\.drcuiyutao\.com.*getVipAudioDetailById requires-body=1,max-size=262144,script-path=https://raw.githubusercontent.com/joyoner/rule/master/JS/yxy_tye.js
-http-response https:\/\/yxy.*\.drcuiyutao\.com.*lecture\/detail requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/joyoner/rule/master/JS/yxy_wpjt.js
+YXY TYE = type=http-response,requires-body=1,max-size=262144,pattern=https:\/\/yxy.*\.drcuiyutao\.com.*getVipAudioDetailById,script-path=https://raw.githubusercontent.com/joyoner/rule/master/JS/yxy_tye.js
+YXY WPJT = type=http-response,requires-body=1,max-size=0,https:\/\/yxy.*\.drcuiyutao\.com.*lecture\/detail,script-path=https://raw.githubusercontent.com/joyoner/rule/master/JS/yxy_wpjt.js

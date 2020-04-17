@@ -1,27 +1,54 @@
 # 去广告脚本
 # https://git.io/iKCloud_Surge_AdBlock
 
+[Rule]
+# Aweme
+URL-REGEX,"^https?:\/\/[\s\S]*\.(snssdk|amemv)\.com\/api\/ad\/",REJECT
+# 哔哩哔哩
+URL-REGEX,https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)),REJECT
+URL-REGEX,https://api.bilibili.com/x/v2/dm/ad,REJECT
+# Weblog
+URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$",REJECT
+# WeChat
+URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad",REJECT
+# 知乎
+USER-AGENT,AVOS*,REJECT-TINYGIF
+URL-REGEX,https://www.zhihu.com/api/v4/mcn/,REJECT
+URL-REGEX,https://api.zhihu.com/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)),REJECT
+AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com)))),REJECT-TINYGIF
+# Google & YouTube
+DOMAIN,mtalk.google.com,REJECT-TINYGIF
+DOMAIN,s.youtube.com,REJECT-TINYGIF
+DOMAIN,suggestqueries.google.com,REJECT-TINYGIF
+DOMAIN,www.googleadservices.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,doubleclick.net,REJECT-TINYGIF
+DOMAIN-KEYWORD,adservice,REJECT-TINYGIF
+DOMAIN,www.google-analytics.com,REJECT-TINYGIF
+
 [MITM]
-hostname = *.amemv.com, *.googlevideo.com, *.snssdk.com, api.bilibili.com, api.live.bilibili.com, api.zhihu.com, app.bilibili.com, mp.weixin.qq.com, www.zhihu.com
+hostname = %APPEND% *.amemv.com, *.googlevideo.com, *.snssdk.com, *.uve.weibo.com, api.bilibili.com, api.live.bilibili.com, api.weibo.cn, api.zhihu.com, app.bilibili.com, mapi.weibo.com, mp.weixin.qq.com, www.zhihu.com
 
 [Script]
 # > Aweme
-http-request ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=1,max-size=0,script-path=https://Choler.github.io/Surge/Script/Aweme.js,script-update-interval=0
-http-response ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=1,max-size=0,script-path=https://Choler.github.io/Surge/Script/Aweme.js,script-update-interval=0
+Aweme Request = type=http-request,requires-body=1,max-size=0,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post),script-path=https://Choler.github.io/Surge/Script/Aweme.js
+Aweme Response = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post),script-path=https://Choler.github.io/Surge/Script/Aweme.js
 # > Bilibili
-http-response ^https://app.bilibili.com/x/v2/space\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js
-http-response ^https://app.bilibili.com/x/resource/show/tab\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js
-http-response ^https://app.bilibili.com/x/v2/feed/index\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Glovecc/Surge-Script/patch-1/surge%20bilibili%20feed.js
-http-response ^https://app.bilibili.com/x/v2/account/mine\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Glovecc/Surge-Script/patch-1/surge%20bilibili%20account.js
-http-response ^https://app.bilibili.com/x/v2/view\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js
-http-response ^https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js
-http-response https://api.bilibili.com/x/v2/reply/main?access_key requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js
+Bilibili Space = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/space\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js
+Bilibili Tab = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/resource/show/tab\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20tab.js
+Bilibili Feed = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/feed/index\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20feed.js
+Bilibili Account = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/account/mine\?access_key,debug=1,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20account.js
+Bilibili View = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/view\?access_key,debug=1,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20view%20relate.js
+Bilibili Reply = type=http-response,requires-body=1,max-size=0,pattern=https://api.bilibili.com/x/v2/reply/main\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20reply.js
+Bilibili Live = type=http-response,requires-body=1,max-size=0,pattern=https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js
+# Weblog
+Weibo AD = type=http-response,requires-body=1,max-size=0,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+Weibo Launch = type=http-response,requires-body=1,max-size=0,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list),script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
 # > WeChat
-http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js
+WeChat = type=http-request,requires-body=1,max-size=0,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://Choler.github.io/Surge/Script/WeChat.js
 # > Youtube
-http-request ^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) script-path=https://Choler.github.io/Surge/Script/YouTube.js
+YouTube = type=http-request,requires-body=1,max-size=0,pattern=^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier),script-path=https://Choler.github.io/Surge/Script/YouTube.js
 # > Zhihu
-http-response ^https://api.zhihu.com/moments\?(action|feed_type) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
-http-response ^https://api.zhihu.com/topstory/recommend requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
-http-response ^https://api.zhihu.com/v4/questions requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
-http-response ^https://api.zhihu.com/people/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
+Zhihu People = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/people/,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
+Zhihu Feed = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/moments/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20feed.js
+Zhihu Recommend = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/topstory/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
+Zhihu Answer = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/v4/questions,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
