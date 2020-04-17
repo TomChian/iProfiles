@@ -5,7 +5,7 @@
 https://p.du.163.com/readtime/info.json - reject
 
 [MITM]
-hostname = account.wps.cn, api.interpreter.caiyun.com, api.jxedt.com, api.revenuecat.com, api.rr.tv, api.shimo.im, api.termius.com, api.unfold.app, app.api.versa-ai.com, billing.peakcloud.org, buy.itunes.apple.com, commerce-api.faceu.mobi, createpdf.acrobat.com, dayone.me, education.github.com, license.pdfexpert.com, note.youdao.com, p.du.163.com, pay.wecut.com, vip1.kuwo.cn, www.40sishi.com, www.instapaper.com, www.xmind.cn, yxyapi*.drcuiyutao.com
+hostname = %APPEND% account.wps.cn, api.interpreter.caiyun.com, api.jxedt.com, api.revenuecat.com, api.rr.tv, api.shimo.im, api.termius.com, api.unfold.app, app.api.versa-ai.com, billing.peakcloud.org, buy.itunes.apple.com, commerce-api.faceu.mobi, createpdf.acrobat.com, dayone.me, education.github.com, license.pdfexpert.com, note.youdao.com, p.du.163.com, pay.wecut.com, vip1.kuwo.cn, www.40sishi.com, www.instapaper.com, www.xmind.cn, yxyapi*.drcuiyutao.com
 
 [Script]
 # 彩云小译
