@@ -17,7 +17,7 @@ DayOne = type=http-response,requires-body=1,max-size=0,pattern=https://dayone.me
 # Instapaper
 Instapaper = type=http-response,requires-body=1,max-size=0,pattern=https://www.instapaper.com/api/subscription_status,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Instapaper.js
 # 驾校一点通
-JXYDT = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/vipapi\.jxedt\.com\/vip\/check,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/JXYDT.js
+# JXYDT = type=http-response,requires-body=1,max-size=0,pattern=^https:\/\/vipapi\.jxedt\.com\/vip\/check,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/JXYDT.js
 # 酷我音乐
 Kuwo Response = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.js
 Kuwo Request = type=http-request,requires-body=1,max-size=0,pattern=^https?:\/\/musicpay\.kuwo.cn\/music\.pay\?uid=\d+,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Kuwo.download.js
@@ -30,7 +30,7 @@ PDF Expert = type=http-response,requires-body=1,max-size=0,pattern=https://(api|
 # Peak智客
 Peak = type=http-response,requires-body=1,max-size=0,pattern=https://billing.peakcloud.org/billing/2/user/me,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Peak.js
 # 轻颜相机
-Qingyan Cam = type=http-response,requires-body=1,max-size=0,pattern=https://(commerce-api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/QianyanCam.js
+# Qingyan Cam = type=http-response,requires-body=1,max-size=0,pattern=https://(commerce-api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/QianyanCam.js
 # 人人视频
 RRTV VIP = type=http-response,requires-body=1,max-size=0,pattern=https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/rrtv.js
 # 石墨文档
