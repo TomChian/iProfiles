@@ -12,7 +12,7 @@ hostname = %APPEND% account.wps.cn, api.interpreter.caiyun.com, api.jxedt.com, a
 [Script]
 # 彩云小译
 Caiyun Interpreter = type=http-response,requires-body=1,max-size=0,pattern=https://api.interpreter.caiyunai.com/v1/user/,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/interpreter.caiyun.js
-# dayone日记高级版
+# DayOne日记高级版
 DayOne = type=http-response,requires-body=1,max-size=0,pattern=https://dayone.me/api/v2/users/(receipt|account-status),script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/DayOne.js
 # Instapaper
 Instapaper = type=http-response,requires-body=1,max-size=0,pattern=https://www.instapaper.com/api/subscription_status,script-path=https://raw.githubusercontent.com/iKCloud/iProfiles/Master/Surge/Scripts/Unlock/Instapaper.js
