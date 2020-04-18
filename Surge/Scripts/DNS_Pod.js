@@ -1,9 +1,9 @@
 /* AppStore Speed up Download
 
 [Host]
-iosapps.itunes.apple.com = script:dnspod
+iosapps.itunes.apple.com = script:DNS Pod
 [Script]
-dns dnspod script-path=https://raw.githubusercontent.com/iKangnir/iProfiles/Master/Surge/Scripts/DNSPod,script-update-interval=-1
+DNS Pod = type=dns,script-path=https://raw.githubusercontent.com/iKangnir/iProfiles/Master/Surge/Scripts/DNS_Pod.js
 */
 
 const url = 'http://119.29.29.29/d?dn=' + $domain;
