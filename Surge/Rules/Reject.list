@@ -320,10 +320,11 @@ DOMAIN,offnavi.map.baidu.com
 DOMAIN,newvector.map.baidu.com
 DOMAIN,ulog.imap.baidu.com
 DOMAIN,newloc.map.n.shifen.com
-
-URL-REGEX,^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
-URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
-
+AND,((USER-AGENT,TBClient*),(IP-CIDR,0.0.0.0/0,no-resolv))
+URL-REGEX,^https?:\/\/c\.tieba\.baidu\.com\/(c\/(s\/splashSchedule|f\/forum\/getAdInfo)|w+\/\w+\/(sync|newRnSync|newlog|mlog))
+URL-REGEX,^http:\/\/[\s\S]*\.baidu\.com/.*ad[xs]\.php
+URL-REGEX,^https?://c.tieba.baidu.com/c/s/splashSchedule
+URL-REGEX,^https?://cover.baidu.com/cover/page/dspSwitchAds/
 # >> BitAuto
 DOMAIN,adx.yiche.com
 DOMAIN,log.ycapp.yiche.com
