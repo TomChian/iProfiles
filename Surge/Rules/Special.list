@@ -46,6 +46,9 @@ DOMAIN,analytics.strava.com
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 
+# > 微博
+DOMAIN,sdkapp.uve.weibo.com,DIRECT
+
 # > 迅雷
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 
