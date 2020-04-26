@@ -31,9 +31,6 @@ DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN,dl.google.com
 DOMAIN,mtalk.google.com
 
-# > Proxy websites
-DOMAIN-SUFFIX,letcn.*
-
 # > Tencent
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
