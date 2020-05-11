@@ -6,7 +6,8 @@ When using for the first time. Need to manually log in to the 52pojie forum to g
 Due to the validity of cookie, if the script pops up a notification of cookie invalidation in the future, you need to repeat the above steps.
 
 
-Surge 4.0 : [Script]
+Surge4.0 or Loon : 
+[Script]
 
 // Daily bonus Script. Will be performed every day at 8 am. You can modify the execution time.
 cron "0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/52pojieDailyBonus/52pojie.js
@@ -24,28 +25,28 @@ var bonus = {
   }
 };
 var date = new Date()
-var week = ["Sunday","Monday","Tuseday","Wednesday","Thursday","Friday","Saturday"];
-var month = ["Jan.","Feb.","Mar.","Apr.","May","Jun.","Jul.","Aug.","Sep.","Oct.","Nov.","Dec."];
+var week = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+var month = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
 
 $httpClient.get(bonus, function(error, response, data) {
   if (error) {
     console.log(error);
-    $notification.post("52pojie Daily bonus. Interface error‼️‼️‼️", "", error)
+    $notification.post("吾爱破解论坛签到脚本 ：接口错误‼️‼️‼️", "", error)
     $done()
   } else {
-    if (data.match(/ÒÑÍê³É/)) {
-      $notification.post("52pojie Daily bonus", "", week[date.getDay()] + ", " + month[date.getMonth()] + " " + date.getDate() + ", " + "Daily bonus success！🎉")
+    if (data.match(/(ÒÑÍê³É|\u606d\u559c\u60a8)/)) {
+      $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + ", " + "签到结果：成功！🎉")
       $done()
     } else {
-      if (data.match(/ÄúÒÑ/)) {
-        $notification.post("52pojie Daily bonus", "", week[date.getDay()] + ", " + month[date.getMonth()] + " " + date.getDate() + ", " + "Repeat ⚠️")
+      if (data.match(/(ÄúÒÑ|\u4e0b\u671f\u518d\u6765)/)) {
+        $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + ", " + "签到结果：重复！⚠️")
         $done()
       } else {
-        if (data.match(/ÏÈµÇÂ¼/)) {
-          $notification.post("52pojie Daily bonus. Error. Cookies expire", "", "Please reopen the script to get‼️")
+        if (data.match(/(ÏÈµÇÂ¼|\u9700\u8981\u5148\u767b\u5f55)/)) {
+          $notification.post("吾爱破解论坛签到脚本 ：Cookies失效", "", "请重新获取‼️")
           $done()
         } else {
-          $notification.post("52pojie Daily bonus", "", "Scripts need to be updated ‼️‼️")
+          $notification.post("吾爱破解论坛签到", "", "脚本需要升级 ‼️‼️")
           $done()
         }
       }
