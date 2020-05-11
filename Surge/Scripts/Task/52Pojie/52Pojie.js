@@ -35,11 +35,11 @@ $httpClient.get(bonus, function(error, response, data) {
     $done()
   } else {
     if (data.match(/(ÒÑÍê³É|\u606d\u559c\u60a8)/)) {
-      $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + ", " + "签到结果：成功！🎉")
+      $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + "日, " + "签到结果：成功！🎉")
       $done()
     } else {
       if (data.match(/(ÄúÒÑ|\u4e0b\u671f\u518d\u6765)/)) {
-        $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + ", " + "签到结果：重复！⚠️")
+        $notification.post("吾爱破解论坛签到", "", week[date.getDay()] + ", " + month[date.getMonth()] + "" + date.getDate() + "日, " + "签到结果：重复！⚠️")
         $done()
       } else {
         if (data.match(/(ÏÈµÇÂ¼|\u9700\u8981\u5148\u767b\u5f55)/)) {
