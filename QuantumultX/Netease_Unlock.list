@@ -1,0 +1,6 @@
+http=netease1.edge.iepl.dev:80, fast-open=false, udp-relayfalse, tag=Netease Unlock A
+http=netease3.edge.iepl.dev:80, fast-open=false, udp-relayfalse, tag=Netease Unlock B
+http=netease2.edge.iepl.dev:8080, fast-open=false, udp-relayfalse, tag=Netease Unlock C
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com, fast-open=false, udp-relay=false, server_check_url=http://music.163.com, tag=Netease Unlock D
+http=music.griouges.cn:39000, fast-open=false, udp-relay=false, tag=Netease Unlock E
+http=taron.top:100, username=none, password=none, over-tls=false, fast-open=false, udp-relay=false, tag=Netease Unlock F
