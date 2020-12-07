@@ -1,8 +1,8 @@
 {
     "name":"iKangnir",
-    "description":"Crontab Task Gallery",
+    "description":"Personal Task Gallery",
     "task":[
-        "0,2,4 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png"
+        "0,2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png"
         "21 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js, tag=百果园, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/pagoda.png"
         "20 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩哔哩, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/bilibili.png"
         "12 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/didi.png"
@@ -13,7 +13,7 @@
         "5 6-18/6 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js, tag=京东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png"
         "30 23 * * * https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd_mini.png"
         "10 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js, tag=京喜金牌厂长, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png"
-        "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, tag=芒果TV, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/mgtv.png"
+        "11 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, tag=芒果TV, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/mgtv.png"
         "22 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png"
         "7 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, tag=南方周末, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/nfzm.png"
         "35 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Netease.png"
