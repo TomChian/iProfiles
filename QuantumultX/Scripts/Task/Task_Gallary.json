@@ -1,5 +1,5 @@
 {
-    "name":"iKangnir",
+    "name":"iKCloud",
     "description":"Personal Task Gallery",
     "task":[
         "0,2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png",
