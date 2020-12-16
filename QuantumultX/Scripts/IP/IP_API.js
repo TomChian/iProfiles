@@ -10,11 +10,11 @@ function getRandomInt(max) {
 }
 
 function City_ValidCheck(para) {
-  if(para==Tainan City) {
-  return "台南市"
+  if(para) {
+  return para
   } else
   {
-  return para
+  return city0
 //emojis[getRandomInt(emojis.length)]
   }
 }
