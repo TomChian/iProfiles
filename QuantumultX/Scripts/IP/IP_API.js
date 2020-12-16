@@ -10,11 +10,11 @@ function getRandomInt(max) {
 }
 
 function City_ValidCheck(para) {
-  if(para) {
-  return para
+  if(para==Tainan City) {
+  return "台南市"
   } else
   {
-  return city0
+  return para
 //emojis[getRandomInt(emojis.length)]
   }
 }
@@ -30,8 +30,8 @@ function ISP_ValidCheck(para) {
 }
 
 function Area_check(para) {
-  if(para=="新加坡"){
-  return "狮城"
+  if(para=="中华民国"){
+  return "台湾"
   }
   if(para=="新加坡"){
   return "狮城"
@@ -47,7 +47,7 @@ var flags = new Map([[ "AC" , "🇦🇨" ] , [ "AF" , "🇦🇫" ] , [ "AI" , "�
 var body = $response.body;
 var obj = JSON.parse(body);
 var title =flags.get(obj['countryCode']) + ' '+ City_ValidCheck(obj['city']);//+Area_check(obj['country']);
-var subtitle = ISP_ValidCheck(obj['org']);
+var subtitle = ''+ISP_ValidCheck(obj['org']);
 var ip = obj['query'];
 var description = '服务商:'+obj['isp'] + '\n'+'地区:' +City_ValidCheck(obj['regionName'])+ '\n' + 'IP:'+ obj['query'] + '\n' +'时区:'+ obj['timezone'];
 $done({title, subtitle, ip, description});
