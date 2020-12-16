@@ -32,12 +32,6 @@ function ISP_ValidCheck(para) {
 function Area_check(para) {
   if(para=="中华民国"){
   return "台湾"
-  }
-  if(para=="新加坡"){
-  return "狮城"
-  }
-  if(para=="日本"){
-  return "瀛洲"
   } else
   {
   return para
