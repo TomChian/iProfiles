@@ -424,17 +424,17 @@ function Trim(item) {
 // 类型前缀/后缀
 function type_prefix(item) {
   if(item.trim()!="") {
-    typefix = {"shadowsocks":"SS｜","vmess":"V2","trojan":"Tr","http":"Hp"}
+    typefix = {"shadowsocks":"SS｜","vmess":"V2｜","trojan":"Tr｜","http":"Hp｜"}
     tp = typefix[item.split("=")[0].trim()]
     return [[item.split("tag=")[0]+
-      "tag=", tp, item.split("tag=")[1]].join(" ")].join(" ")
+      "tag=", tp, item.split("tag=")[1]].join("")].join("")
   }
 }
 function type_suffix(item) {
   if(item.trim()!=""){
     typefix={"shadowsocks":"S","vmess":"V","trojan":"T","http":"H"}
     tp = typefix[item.split("=")[0].trim()]
-    return [item, tp].join("")
+    return [item,tp].join("")
   }
 }
 
