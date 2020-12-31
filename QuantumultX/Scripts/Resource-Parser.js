@@ -434,7 +434,7 @@ function type_suffix(item) {
   if(item.trim()!=""){
     typefix={"shadowsocks":"S","vmess":"V","trojan":"T","http":"H"}
     tp = typefix[item.split("=")[0].trim()]
-    return [item, tp].join(" ")
+    return [item, tp].join("")
   }
 }
 
