@@ -1,0 +1,25 @@
+# 修正规则
+HOST, api.turinglabs.net, DIRECT
+HOST, github.pengym.workers.dev, DIRECT
+HOST, peekaboo.webapp.163.com, DIRECT
+HOST, pub1.emby.wtf, DIRECT
+HOST, is1-ssl.mzstatic.com, DIRECT
+HOST-SUFFIX, agahk.v2raynb.xyz, DIRECT
+HOST-SUFFIX, apsouth1.api12.xyz, DIRECT
+HOST-SUFFIX, boxjs.com, DIRECT
+HOST-SUFFIX, cc.m.jd.com, DIRECT
+HOST-SUFFIX, MTProxy-JP1.mnssr.cc, DIRECT
+HOST-SUFFIX, MTProxy-JP2.mnssr.cc, DIRECT
+HOST-SUFFIX, mt.a.frao.xyz, DIRECT
+HOST-SUFFIX, mt.b.frao.xyz, DIRECT
+HOST-SUFFIX, mtp.baigei.me, DIRECT
+HOST-SUFFIX, music.126.net, DIRECT
+HOST-SUFFIX, proxy.plusmedia.site, DIRECT
+IP-CIDR, 10.0.0.0/8, DIRECT
+IP-CIDR, 17.0.0.0/8, DIRECT
+IP-CIDR, 100.64.0.0/10, DIRECT
+IP-CIDR, 127.0.0.0/8, DIRECT
+IP-CIDR, 172.16.0.0/12, DIRECT
+IP-CIDR, 182.254.116.0/24, DIRECT
+IP-CIDR, 192.168.0.0/16, DIRECT
+USER-AGENT, TestFlight/57 CFNetwork/1120 Darwin/19.0.0, DIRECT
