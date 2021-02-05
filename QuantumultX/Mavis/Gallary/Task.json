@@ -1,0 +1,34 @@
+{
+  "name": "Mavis' Task Gallay",
+  "description": "Task Gallay for my pretty goddess Mavis Bai",
+  "task": [
+    "0,2 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, tag=百度, img-url=https://raw.githubusercontent.com/Orz-3/task/master/baidu.png, enabled=true"
+    "20 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, tag=哔哩哔哩, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png, enabled=true"
+    "12 0,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, tag=滴滴出行, img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png, enabled=true"
+    "55 0 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/songyangzz/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png, enabled=true"
+    "56 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png, enabled=true"
+    "5 6-18/6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js, tag=京东｜东东农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png, enabled=true"
+    "30 12 * * 6 https://gitee.com/lxk0301/jd_scripts/raw/master/jd_get_share_code.js, tag=京东｜获取互助码, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+    "13 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_shop.js, tag=京东｜进店领豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_shop.png, enabled=true"
+    "2 9 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_change.js, tag=京东｜京豆变动通知, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+    "12 * * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_dreamFactory.js, tag=京东｜京喜工厂, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true"
+    "10 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jx_sign.js, tag=京东｜京喜签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png, enabled=true"
+    "11 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_kd.js, tag=京东｜快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true"
+    "10 6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_bean_home.js, tag=京东｜领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true"
+    "3,5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东｜签到领京豆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true"
+    "4 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_cash.js, tag=京东｜签到领现金, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_cash.png, enabled=true"
+    "55 23 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_unsubscribe.js, tag=京东｜取关店铺商品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_unbind.png, enabled=true"
+    "9 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_syj.js, tag=京东｜十元街, img-url=https://github.com/58xinian/icon/raw/master/jd_syj.png, enabled=true"
+    "14 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_club_lottery.js, tag=京东｜摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true"
+    "15 */5 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_moneyTree.js, tag=京东｜摇钱树, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png, enabled=true"
+    "10 7-21/2 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_plantBean.js, tag=京东｜种豆得豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png, enabled=true"
+    "6 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, tag=京东读书, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jdds.png, enabled=true"
+    "19 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, tag=芒果TV, img-url=https://raw.githubusercontent.com/Orz-3/task/master/mgtv.png, enabled=true"
+    "30 7,18 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/moji.js, tag=墨迹天气, img-url=https://raw.githubusercontent.com/Orz-3/task/master/weather.png, enabled=true"
+    "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, tag=南方周末, img-url=https://raw.githubusercontent.com/Orz-3/task/master/nfzm.png, enabled=true"
+    "35 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.js, tag=网易云音乐, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png, enabled=true"
+    "18 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js, tag=威锋, img-url=https://raw.githubusercontent.com/Orz-3/task/master/feng.png, enabled=true"
+    "17 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, tag=WPS, img-url=https://raw.githubusercontent.com/Orz-3/task/master/wps.png, enabled=true"
+    "30 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png, enabled=true"
+  ]
+}
