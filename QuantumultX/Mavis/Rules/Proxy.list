@@ -1,22 +1,8 @@
 # Proxy
-HOST, api.pay.pm, PROXY
-HOST, app.getelement.cc, PROXY
-HOST, cp.v2tun.com, PROXY
-HOST, ovo.dy.cdn.llsmall.com, PROXY
-HOST, portal.blinkload.zone, PROXY
 HOST, proxypool.turinglabs.net, PROXY
 HOST, raw.githubusercontent.com, PROXY
-HOST, sub.duang.cloud, PROXY
-HOST, sub.paasmi.com, PROXY
-HOST, sub.xn—9kq61slq0c.com, PROXY
-HOST, www.vipfenxiang.com, PROXY
-HOST-SUFFIX, arkdy.com, PROXY
-HOST-SUFFIX, bulink.xyz, PROXY
-HOST-SUFFIX, dinastio.cc, PROXY
 HOST-SUFFIX, dler.cloud, PROXY
 HOST_SUFFIX, git.io, PROXY
-HOST-SUFFIX, guguex.net, PROXY
-HOST-SUFFIX, justmysocks3.net, PROXY
 HOST-SUFFIX, proxypool.ga, PROXY
 HOST-SUFFIX, wangzi.uk, PROXY
 IP-CIDR, 8.8.8.8/32, PROXY
