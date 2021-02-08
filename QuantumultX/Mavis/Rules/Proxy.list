@@ -2,7 +2,7 @@
 HOST, proxypool.turinglabs.net, PROXY
 HOST, raw.githubusercontent.com, PROXY
 HOST-SUFFIX, dler.cloud, PROXY
-HOST_SUFFIX, git.io, PROXY
+HOST-SUFFIX, git.io, PROXY
 HOST-SUFFIX, proxypool.ga, PROXY
 HOST-SUFFIX, wangzi.uk, PROXY
 IP-CIDR, 8.8.8.8/32, PROXY
