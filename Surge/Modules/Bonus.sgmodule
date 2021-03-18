@@ -7,7 +7,7 @@ hostname = %APPEND% *.bilibili.com, *.feng.com, api.infzm.com, api.m.jd.com, api
 [Script]
 # 百度贴吧&百度知道
 百度｜贴吧&知道 = type=cron, cronexp=“0,2 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, wake-system=1
-# 哔哩哔哩直播签到+银瓜子转硬币
+# 哔哩哔哩直播签到＆银瓜子转硬币
 哔哩哔哩｜直播签到 = type=cron, cronexp=“20 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, wake-system=1
 哔哩哔哩｜转硬币 = type=cron, cronexp=“21 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, wake-system=1
 # 滴滴出行
@@ -28,13 +28,13 @@ hostname = %APPEND% *.bilibili.com, *.feng.com, api.infzm.com, api.m.jd.com, api
 # 南方周末
 南方周末 = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js,wake-system=1
 # WPS
-WPS签到 = type=cron, cronexp=“17 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, wake-system=1
+WPS = type=cron, cronexp=“17 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, wake-system=1
 # 网易云音乐
 网易云音乐签到 = type=cron, cronexp=“35 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, wake-system=1
 # 微博
-微博 = type=cron,cronexp=“35 5 0 * * *”,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, wake-system=1
-超话 = type=cron,cronexp=“1,21 0  * * *”,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js,wake-system=1,timeout=600
+微博｜签到 = type=cron,cronexp=“35 5 0 * * *”,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, wake-system=1
+微博｜超话 = type=cron,cronexp=“1,21 0  * * *”,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js,wake-system=1,timeout=600
 # 微锋
 威锋 = type=cron, cronexp=“10 0 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js, wake-system=1
 # 吾爱破解
-吾爱签到 = type=cron, cronexp=“30 0 * * *”, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, wake-system=1
+吾爱破解 = type=cron, cronexp=“30 0 * * *”, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, wake-system=1
