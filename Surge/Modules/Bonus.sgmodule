@@ -2,7 +2,7 @@
 #!desc=日常签到执行脚本。
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, *.feng.com, api.infzm.com, api.m.jd.com, api.weibo.cn, as.xiaojukeji.com, credits.bz.mgtv.com, h5.ele.me, music.163.com, jdread-api.jd.com, pay.sc.weibo.com, tieba.baidu.com, www.52pojie.cn, zt.wps.cn
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, api.weibo.cn, as.xiaojukeji.com, credits.bz.mgtv.com, h5.ele.me, music.163.com, jdread-api.jd.com, pay.sc.weibo.com, tieba.baidu.com, www.52pojie.cn, zt.wps.cn
 
 [Script]
 # 百度贴吧&百度知道
@@ -34,7 +34,5 @@ WPS = type=cron, cronexp=“17 0 * * *”, script-path=https://raw.githubusercon
 # 微博
 微博｜签到 = type=cron,cronexp=“35 5 0 * * *”,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/weibo.js, wake-system=1
 微博｜超话 = type=cron,cronexp=“1,21 0  * * *”,script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js,wake-system=1,timeout=600
-# 微锋
-威锋 = type=cron, cronexp=“10 0 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js, wake-system=1
 # 吾爱破解
 吾爱破解 = type=cron, cronexp=“30 0 * * *”, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, wake-system=1
