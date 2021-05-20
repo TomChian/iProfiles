@@ -25,6 +25,8 @@ hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, api.weibo.cn, a
 芒果TV = type=cron, cronexp=“19 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, wake-system=1
 # 墨迹天气
 墨迹天气 = type=cron,cronexp=“30 7,18 * * *”,script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/moji.js,wake-system=1
+# Sub-Store
+Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *, script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js
 # 南方周末
 南方周末 = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js,wake-system=1
 # WPS
