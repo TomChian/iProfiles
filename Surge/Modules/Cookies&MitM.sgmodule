@@ -2,7 +2,7 @@
 #!desc=日常签到脚本的Cookie获取。
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, act.10010.com, api.infzm.com, api.m.jd.com, api.weibo.cn, as.xiaojukeji.com, credits.bz.mgtv.com, h5.ele.me, m.client.10010.com, music.163.com, jdread-api.jd.com, pay.sc.weibo.com, tieba.baidu.com, www.52pojie.cn, zt.wps.cn
+hostname = %APPEND% *.bilibili.com, api.didialift.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.com, bosp-api.xiaojukeji.com, gameapi.hellobike.com, music.163.com, openapi.17usoft.net, pay.diditaxi.com.cn, jdread-api.jd.com, tieba.baidu.com
 
 [Script]
 # 百度
@@ -10,28 +10,20 @@ Rewrite：百度 = type=http-request,  pattern=^https?:\/\/tieba\.baidu\.com\/?.
 # 哔哩哔哩
 Rewrite：哔哩哔哩 = type=http-request, pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
 # 滴滴出行
-Rewrite：滴滴出行 = type=http-request, pattern=^https:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
-# 饿了么
-Rewrite：饿了么 = type=http-request, pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$, script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/songyangzz/elem/elemGetCookies.js
+Rewrite：滴滴出行_获取Token = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*)
+Rewrite：滴滴出行_获取Ticket = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*)
+Rewrite：滴滴出行_获取LotteryId = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*)
+Rewrite：滴滴金融_获取ActivityId与ChannelId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home
+Rewrite：滴滴出行_获取GroupId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index
+# 哈啰出行
+Rewrite：哈啰出行 = type=http-request, pattern=^https:\/\/gameapi\.hellobike\.com\/api, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
 # 京东
 Rewrite：京东 = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 # 京东读书
-Rewrite：京东读书 = type=http-request, pattern=^https:\/\/jdread-api\.jd\.com\/*,requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, script-update-interval=21600
-# 芒果TV
-Rewrite：芒果TV = type=http-request, pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
+Rewrite：京东读书 = type=http-request, pattern=^https:\/\/jdread-api\.jd\.com\/*,requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js
 # 南方周末
 Rewrite：南方周末 = type=http-request,pattern=^http:\/\/api\.infzm\.com\/mobile\/pumpkin_task\/complete?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.cookie.js,debug=true
-# WPS
-Rewrite：WPS = type=http-request, pattern=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+# 同程旅行
+Rewrite：同程旅行 = type=http-request,pattern=https://openapi.17usoft.net/maskantactivityapi/memberCenterSign\?.+,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 # 网易云音乐
 Rewrite：网易云音乐 = type=http-request, pattern=^https:\/\/music.163.com\/weapi\/user\/level, requires-body=true, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js
-#微博
-Rewrite：微博 = type=http-request, pattern=https:\/\/api\.weibo\.cn\/\d\/page\/\w+\?gsid, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js
-Rewrite：钱包 = type=http-request, pattern=https:\/\/pay\.sc\.weibo\.com\/aj\/mobile\/home\/welfare\/signin\/do\?, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js
-Rewrite：超话 = type=http-request, pattern=^https?://m?api\.weibo\.c(n|om)\/2\/(cardlist|page\/button), script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.cookie.js
-# 吾爱破解
-Rewrite：吾爱破解 = type=http-request, pattern=https:\/\/www\.52pojie\.cn\/home\.php\?, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-# 中国联通
-Rewrite：中国联通 = type=http-request, pattern=^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-Rewrite：中国联通 = type=http-request, pattern=^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
-Rewrite：中国联通 = type=http-request, pattern=^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo), script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
