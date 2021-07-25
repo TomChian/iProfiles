@@ -6,25 +6,25 @@ hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.c
 
 [Script]
 # 百度贴吧&百度知道
-百度｜贴吧&知道 = type=cron, cronexp=“0,2 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, wake-system=1
+Bonus：百度｜贴吧&知道 = type=cron, cronexp=“0,2 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js, wake-system=1
 # 哔哩哔哩直播签到＆银瓜子转硬币
-哔哩哔哩｜直播签到 = type=cron, cronexp=“20 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, wake-system=1
-哔哩哔哩｜转硬币 = type=cron, cronexp=“21 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, wake-system=1
+Bonus：哔哩哔哩｜直播签到 = type=cron, cronexp=“20 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, wake-system=1
+Bonus：哔哩哔哩｜转硬币 = type=cron, cronexp=“21 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, wake-system=1
 # 滴滴出行
-滴滴出行 = type=cron, cronexp=“0 9 * * *”, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, wake-system=1
+Bonus：滴滴出行 = type=cron, cronexp=“0 9 * * *”, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, wake-system=1
 # 哈啰出行
-哈啰出行 = type=cron, cronexp=“5 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
+Bonus：哈啰出行 = type=cron, cronexp=“5 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
 # 京东
-京东 = type=cron, cronexp=“3,5 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, wake-system=1, script-update-interval=21600
+Bonus：京东｜签到领京豆 = type=cron, cronexp=“3,5 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, wake-system=1, script-update-interval=21600
 # 京东读书
-京东读书 = type=cron, cronexp=“6 0 * * *”, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, script-update-interval=21600
+Bonus：京东读书 = type=cron, cronexp=“6 0 * * *”, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, script-update-interval=21600
 # 墨迹天气
-墨迹天气 = type=cron, cronexp=“30 7,18 * * *”, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/moji.js, wake-system=1
+Bonus：墨迹天气 = type=cron, cronexp=“30 7,18 * * *”, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/moji.js, wake-system=1
 # Sub-Store
-Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *, script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js
+Bonus：Sub-Store自动同步 = type=cron,cronexp=0 12 * * *, script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js
 # 南方周末
-南方周末 = type=cron, cronexp=8 0 * * *, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, wake-system=1
+Bonus：南方周末 = type=cron, cronexp=8 0 * * *, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, wake-system=1
 # 同程旅行
-同程旅行 = type=cron,cronexp=”15 7,15 * * *“,wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
+Bonus：同程旅行 = type=cron,cronexp=”15 7,15 * * *“,wake-system=1,timeout=120,script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/tclx.js
 # 网易云音乐
-网易云音乐签到 = type=cron, cronexp=“35 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, wake-system=1
+Bonus：网易云音乐 = type=cron, cronexp=“35 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, wake-system=1
