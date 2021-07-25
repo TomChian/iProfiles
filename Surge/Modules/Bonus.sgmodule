@@ -12,6 +12,9 @@ Bonus：哔哩哔哩｜转硬币 = type=cron, cronexp="21 0 * * *", script-path=
 Bonus：滴滴出行 = type=cron, cronexp="0 9 * * *", script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, wake-system=1
 # 东京奥运
 Bonus：金牌榜 = type=cron, cronexp="0 9,21 * * *", script-path=https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/OlympicRanking.js
+# 饿了么
+Bonus：饿了么｜领取吃货豆 = type=cron, cronexp="55 0 * * *", timeout=60, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
+Bonus：饿了么｜领取任务 = type=cron, cronexp="0 10 * * *", timeout=60, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js
 # 哈啰出行
 Bonus：哈啰出行 = type=cron, cronexp="5 0 * * *", script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
 # 京东
@@ -30,4 +33,4 @@ Bonus：同程旅行 = type=cron,cronexp="15 7,15 * * *",wake-system=1,timeout=1
 Bonus：网易云音乐 = type=cron, cronexp="35 0 * * *", script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, wake-system=1
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.com, gameapi.hellobike.com, music.163.com, jdread-api.jd.com, openapi.17usoft.net, tieba.baidu.com
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.com, gameapi.hellobike.com, h5.ele.me, music.163.com, jdread-api.jd.com, openapi.17usoft.net, tieba.baidu.com
