@@ -11,30 +11,16 @@ hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, api.weibo.cn, a
 哔哩哔哩｜直播签到 = type=cron, cronexp=“20 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, wake-system=1
 哔哩哔哩｜转硬币 = type=cron, cronexp=“21 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.silver2coin.js, wake-system=1
 # 滴滴出行
-滴滴出行 = type=cron, cronexp=“12 0,20 * * *”, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js, wake-system=1
-# 饿了么
-饿了么｜签到 = type=cron, cronexp=“55 0 * * *”, script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/songyangzz/elem/elemSign.js, wake-system=1
-饿了么｜红包 = type=cron, cronexp=“56 0 * * *”, script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, wake-system=1
+滴滴出行 = type=cron, cronexp=“0 9 * * *”, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js, wake-system=1
 # 京东
 京东 = type=cron, cronexp=“3,5 0 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, wake-system=1, script-update-interval=21600
-# 京东到家
-京东到家 = type=cron, cronexp=“10 8 * * *”, timeout=30, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/jddj.js, wake-system=1, script-update-interval=21600
 # 京东读书
 京东读书 = type=cron, cronexp=“6 0 * * *”, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, script-update-interval=21600
-# 芒果TV
-芒果TV = type=cron, cronexp=“19 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js, wake-system=1
 # 墨迹天气
 墨迹天气 = type=cron, cronexp=“30 7,18 * * *”, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/moji.js, wake-system=1
 # Sub-Store
 Sub-Store 自动同步 = type=cron,cronexp=0 12 * * *, script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/scripts/cron-sync-artifacts.js
 # 南方周末
 南方周末 = type=cron, cronexp=8 0 * * *, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js, wake-system=1
-# WPS
-WPS = type=cron, cronexp=“17 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js, wake-system=1
 # 网易云音乐
 网易云音乐签到 = type=cron, cronexp=“35 0 * * *”, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, wake-system=1
-# 微博
-微博｜签到 = type=cron, cronexp=“35 5 0 * * *”, script-path=https://raw.githubusercontent.com/Sunert/Script/master/Task/weibo.js, wake-system=1
-微博｜超话 = type=cron, cronexp=“1,21 0  * * *”, script-path=https://raw.githubusercontent.com/toulanboy/scripts/master/weibo/weibotalk.js, wake-system=1,timeout=600
-# 吾爱破解
-吾爱破解 = type=cron, cronexp=“30 0 * * *”, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, wake-system=1
