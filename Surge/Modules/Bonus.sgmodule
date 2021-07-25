@@ -1,5 +1,6 @@
 #!name=Bonus
 #!desc=日常签到执行脚本。
+#!system=ios
 
 [MITM]
 hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.com, gameapi.hellobike.com, music.163.com, jdread-api.jd.com, openapi.17usoft.net, tieba.baidu.com
