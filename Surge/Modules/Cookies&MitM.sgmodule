@@ -2,19 +2,13 @@
 #!desc=日常签到脚本的Cookie获取。
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, api.didialift.com, api.infzm.com, api.m.jd.com, as.xiaojukeji.com, bosp-api.xiaojukeji.com, gameapi.hellobike.com, h5.ele.me, music.163.com, openapi.17usoft.net, pay.diditaxi.com.cn, jdread-api.jd.com, tieba.baidu.com
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, music.163.com, openapi.17usoft.net, jdread-api.jd.com, tieba.baidu.com
 
 [Script]
 # 百度
 Rewrite：百度 = type=http-request,  pattern=^https?:\/\/tieba\.baidu\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
 # 哔哩哔哩
 Rewrite：哔哩哔哩 = type=http-request, pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
-# 滴滴出行
-Rewrite：滴滴出行_获取Token = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*token=([^&]*)
-Rewrite：滴滴出行_获取Ticket = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*)
-Rewrite：滴滴出行_获取LotteryId = type=http-request,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*)
-Rewrite：滴滴金融_获取ActivityId与ChannelId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/pay\.diditaxi\.com\.cn\/web_wallet\/v2\/wallet\/home
-Rewrite：滴滴出行_获取GroupId = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/didichuxing/didi_checkin.js,pattern=^https?:\/\/bosp-api\.xiaojukeji\.com\/wechat\/benefit\/public\/v2\/index
 # 饿了么
 Rewrite：饿了么 = type=http-request, pattern=^https?:\/\/h5\.ele\.me\/restapi\/biz\.svip_scene\/svip\/engine\/queryTrafficSupply, script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js
 # 哈啰出行
