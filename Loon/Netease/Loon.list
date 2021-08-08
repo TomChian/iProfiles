@@ -1,0 +1,7 @@
+Netease Music 01 = http, 106.52.127.71, 19931, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 02 = http, 106.52.127.72, 19951, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 03 = http, aimer.one, 3333, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 04 = http, block4music.poetyin.me, 39000, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 05 = http, 3music.poetyin.me, 100, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 06 = http, music.lolico.me, 39000, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
+Netease Music 07 = http, taron.top, 100, tls=false, skip-cert-verify=0, tfo=false, udp-relay=false
