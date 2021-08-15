@@ -2,7 +2,7 @@
 #!desc=日常签到脚本的Cookie获取。
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, music.163.com, openapi.17usoft.net, jdread-api.jd.com, tieba.baidu.com
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, ms.jr.jd.com, me-api.jd.com, music.163.com, openapi.17usoft.net, jdread-api.jd.com, tieba.baidu.com
 
 [Script]
 # 百度
