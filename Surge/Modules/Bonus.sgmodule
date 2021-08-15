@@ -3,7 +3,7 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, music.163.com, jdread-api.jd.com, openapi.17usoft.net, tieba.baidu.com
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, ms.jr.jd.com, me-api.jd.com, music.163.com, jdread-api.jd.com, openapi.17usoft.net, tieba.baidu.com
 
 [Script]
 # 百度贴吧&百度知道
