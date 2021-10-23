@@ -2,7 +2,7 @@
 #!desc=哔哩哔哩开启1080P+、历史比价、淘票票豆瓣评分、Netflix评分
 
 [MITM]
-hostname=api.bilibili.com, api.m.jd.com, app.bilibili.com, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, trade-acs.m.taobao.com
+hostname=api.bilibili.com, api.m.jd.com, app.bilibili.com, guide-acs.m.taobao.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, trade-acs.m.taobao.com, www.google.*
 
 [Script]
 # 哔哩哔哩开启1080P+
@@ -17,3 +17,4 @@ hostname=api.bilibili.com, api.m.jd.com, app.bilibili.com, guide-acs.m.taobao.co
 Netflix评分 = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 Netflix评分 = type=http-response,requires-body=1,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 单集评分 = type=http-response,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/warmer/.+type=show-ath,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
+Google自动翻页 = type=http-response,pattern=http:\/\/www\.google\..*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/endlessgoogle.js
