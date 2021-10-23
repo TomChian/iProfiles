@@ -2,7 +2,7 @@
 #!desc=日常签到脚本的Cookie获取。
 
 [MITM]
-hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, music.163.com, openapi.17usoft.net, jdread-api.jd.com, tieba.baidu.com
+hostname = %APPEND% *.bilibili.com, api.infzm.com, api.m.jd.com, gameapi.hellobike.com, h5.ele.me, ms.jr.jd.com, me-api.jd.com, music.163.com, openapi.17usoft.net, jdread-api.jd.com, tieba.baidu.com
 
 [Script]
 # 百度
@@ -14,7 +14,7 @@ Rewrite：饿了么 = type=http-request, pattern=^https?:\/\/h5\.ele\.me\/restap
 # 哈啰出行
 Rewrite：哈啰出行 = type=http-request, pattern=^https:\/\/gameapi\.hellobike\.com\/api, script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js, requires-body=true
 # 京东
-Rewrite：京东 = type=http-request, pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+Rewrite：京东 = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 # 京东读书
 Rewrite：京东读书 = type=http-request, pattern=^https:\/\/jdread-api\.jd\.com\/*,requires-body=1,max-size=0, script-path=https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js
 # 南方周末
