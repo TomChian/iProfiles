@@ -1,22 +1,22 @@
 payload:
-  DOMAIN,emby.misakaf.xyz
-  DOMAIN,cu.poloemby.xyz
-  DOMAIN,zzl.poloemby.xyz
-  DOMAIN,zf.hk01.77is.top
-  DOMAIN,emby2021.kozow.com
-  DOMAIN,emby.misakaf.xyz
-  DOMAIN,emby.wangs.live
-  DOMAIN-SUFFIX,poloemby.xyz
-  DOMAIN-SUFFIX,77is.top
-  DOMAIN-SUFFIX,pornemby.club
-  DOMAIN-SUFFIX,misakaf.xyz
-  DOMAIN-SUFFIX,kozow.com
-  DOMAIN-SUFFIX,wangs.live
-  DST-PORT,443
-  DST-PORT,8008
-  DST-PORT,8088
-  DST-PORT,8096
-  DST-PORT,20013
-  DST-PORT,20101
-  DST-PORT,15121
-  DST-PORT,25565
+  - DOMAIN,emby.misakaf.xyz
+  - DOMAIN,cu.poloemby.xyz
+  - DOMAIN,zzl.poloemby.xyz
+  - DOMAIN,zf.hk01.77is.top
+  - DOMAIN,emby2021.kozow.com
+  - DOMAIN,emby.misakaf.xyz
+  - DOMAIN,emby.wangs.live
+  - DOMAIN-SUFFIX,poloemby.xyz
+  - DOMAIN-SUFFIX,77is.top
+  - DOMAIN-SUFFIX,pornemby.club
+  - DOMAIN-SUFFIX,misakaf.xyz
+  - DOMAIN-SUFFIX,kozow.com
+  - DOMAIN-SUFFIX,wangs.live
+  - DST-PORT,443
+  - DST-PORT,8008
+  - DST-PORT,8088
+  - DST-PORT,8096
+  - DST-PORT,20013
+  - DST-PORT,20101
+  - DST-PORT,15121
+  - DST-PORT,25565
