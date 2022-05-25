@@ -13,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,misakaf.xyz
   - DOMAIN-SUFFIX,kozow.com
   - DOMAIN-SUFFIX,wangs.live
-  - DST-PORT,443
   - DST-PORT,8008
   - DST-PORT,8088
   - DST-PORT,8096
