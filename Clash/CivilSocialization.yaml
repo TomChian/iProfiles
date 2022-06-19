@@ -1,3 +1,7 @@
+# 百度贴吧
+  - DOMAIN-SUFFIX,tieba.com
+  - DOMAIN-SUFFIX,tiebaimg.com
+# 微博
   - DOMAIN,weibointl.api.weibo.cn
   - DOMAIN,wbapp.mobile.sina.cn
   - DOMAIN,api.weibo.cn
