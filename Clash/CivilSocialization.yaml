@@ -6,4 +6,5 @@
   - DOMAIN,wbapp.mobile.sina.cn
   - DOMAIN,api.weibo.cn
 # 小红书
+  - DOMAIN-SUFFIX,rl.link
   - DOMAIN-SUFFIX,xiaohongshu.com
