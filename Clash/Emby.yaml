@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,kozow.com
   - DOMAIN-SUFFIX,wangs.live
   - DST-PORT,8008
+  - DST-PORT,8028
   - DST-PORT,8088
   - DST-PORT,8096
   - DST-PORT,20013
