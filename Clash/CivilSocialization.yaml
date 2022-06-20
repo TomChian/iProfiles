@@ -1,7 +1,12 @@
 payload:
 # 百度贴吧
+  - DOMAIN,c.tieba.baidu.com
+  - DOMAIN,tb.himg.baidu.com
+  - DOMAIN,tieba.baidu.com
+  - DOMAIN,tiebapic.baidu.com
   - DOMAIN-SUFFIX,tieba.com
   - DOMAIN-SUFFIX,tiebaimg.com
+  - DOMAIN-SUFFIX,
 # 微博
   - DOMAIN,weibointl.api.weibo.cn
   - DOMAIN,wbapp.mobile.sina.cn
