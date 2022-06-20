@@ -6,11 +6,11 @@ payload:
   - DOMAIN,tiebapic.baidu.com
   - DOMAIN-SUFFIX,tieba.com
   - DOMAIN-SUFFIX,tiebaimg.com
-  - DOMAIN-SUFFIX,
 # 微博
   - DOMAIN,weibointl.api.weibo.cn
   - DOMAIN,wbapp.mobile.sina.cn
   - DOMAIN,api.weibo.cn
 # 小红书
   - DOMAIN-SUFFIX,rl.link
+  - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiaohongshu.com
