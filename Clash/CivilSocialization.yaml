@@ -10,6 +10,10 @@ payload:
   - DOMAIN,weibointl.api.weibo.cn
   - DOMAIN,wbapp.mobile.sina.cn
   - DOMAIN,api.weibo.cn
+# 微信
+  - DOMAIN,mp.weixin.qq.com
+  - DOMAIN,szextshort.weixin.qq.com
+  - DOMAIN,szminorshort.weixin.qq.com
 # 小红书
   - DOMAIN-SUFFIX,rl.link
   - DOMAIN-SUFFIX,xhscdn.com
