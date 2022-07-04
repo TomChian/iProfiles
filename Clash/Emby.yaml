@@ -9,12 +9,14 @@ payload:
   - DOMAIN,emby.wangs.live
   - DOMAIN-SUFFIX,nakonako.net
   - DOMAIN-SUFFIX,poloemby.xyz
+  - DOMAIN-SUFFIX,4545.cf
   - DOMAIN-SUFFIX,77is.top
   - DOMAIN-SUFFIX,pornemby.club
   - DOMAIN-SUFFIX,misakaf.xyz
   - DOMAIN-SUFFIX,kozow.com
   - DOMAIN-SUFFIX,wangs.live
   - DST-PORT,8008
+  - DST-PORT,8018
   - DST-PORT,8028
   - DST-PORT,8088
   - DST-PORT,8096
