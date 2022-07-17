@@ -1,5 +1,6 @@
 payload:
   - DOMAIN,emby.flowercloud.yt
+  - DOMAIN,emby.jiasu.ga
   - DOMAIN,emby.misakaf.xyz
   - DOMAIN,cu.poloemby.xyz
   - DOMAIN,zzl.poloemby.xyz
@@ -11,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,poloemby.xyz
   - DOMAIN-SUFFIX,4545.cf
   - DOMAIN-SUFFIX,77is.top
+  - DOMAIN-SUFFIX,jiasu.ga
   - DOMAIN-SUFFIX,pornemby.club
   - DOMAIN-SUFFIX,misakaf.xyz
   - DOMAIN-SUFFIX,kozow.com
