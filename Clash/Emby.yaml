@@ -10,6 +10,7 @@ payload:
   - DOMAIN,emby.texon.one
   - DOMAIN,emby.wangs.live
   - DOMAIN,free.emby.eu.org
+  - DOMAIN,cf.xmsl.org
   - DOMAIN-SUFFIX,nakonako.net
   - DOMAIN-SUFFIX,poloemby.xyz
   - DOMAIN-SUFFIX,404.sb
