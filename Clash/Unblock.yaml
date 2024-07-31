@@ -1,3 +1,5 @@
 payload:
   - DOMAIN,mime.baidu.com
   - DOMAIN,api.installer.xiaomi.com
+  - PROCESS-NAME,com.miui.videoplayer,Emby
+  - PROCESS-NAME,net.wz.ssc,DIRECT
