@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,misakaf.xyz
   - DOMAIN-SUFFIX,kozow.com
   - DOMAIN-SUFFIX,wangs.live
+  - DOMAIN-SUFFIX,7777777.buzz
   - DST-PORT,8008
   - DST-PORT,8018
   - DST-PORT,8028
