@@ -16,6 +16,7 @@ payload:
   - DOMAIN,emby.bangumi.ca
   - DOMAIN,789.123456.al
   - DOMAIN,cf.imetyou.top
+  - DOMAIN,cdn.lyrebirdemby.com
   - DOMAIN-SUFFIX,nakonako.net
   - DOMAIN-SUFFIX,poloemby.xyz
   - DOMAIN-SUFFIX,404.sb
