@@ -4,7 +4,8 @@ tiles:
 - name: 河北省实时油价
   icon: 'car'
   backgroundColor: '#c932a9'
-  argument: 'provname=河北'
+  argument: 'provname=河北' 
+icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/gdoil.png
 script-providers:
     河北省实时油价:
         url: https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/oil.js
