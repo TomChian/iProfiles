@@ -9,4 +9,4 @@ icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/gdoil.png
 category: "Tom Chian"
 script-providers:
     河北省实时油价:
-        url: https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/oil.js
+        url: https://raw.githubusercontent.com/TomChian/iProfiles/Master/Surge/Scripts/Oil.js
