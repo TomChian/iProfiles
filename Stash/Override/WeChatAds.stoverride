@@ -1,7 +1,3 @@
-#!desc=微信公众号去广告
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/wechatad.png
-#!homepage=https://whatshub.top
-#!author=HotKids
 name: WeChatAds
 desc: 微信公众号去广告
 icon: https://raw.githubusercontent.com/deezertidal/private/main/icons/wechatad.png
