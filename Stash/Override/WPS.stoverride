@@ -1,8 +1,7 @@
-#!desc=WPS解锁本地会员
-#!icon= https://raw.githubusercontent.com/deezertidal/private/main/icons/wps.png
-#!author=I-am-R-E
-name: WPShuiyuan
+name: WPS
 desc: WPS解锁本地会员
+icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/wps.png
+category: Tom Chian
 http:
   mitm:
     - "account.wps.cn"
