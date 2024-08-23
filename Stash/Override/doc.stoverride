@@ -1,9 +1,7 @@
-#!desc=稻壳会员解锁
-#!homepage=https://whatshub.top
-#!author= yqc007
-#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/doc.png
 name: WPSdaokehuiyuan
 desc: 稻壳会员解锁
+icon: https://raw.githubusercontent.com/deezertidal/private/main/icons/doc.png
+category: Tom Chian
 http:
   mitm:
     - "*.docer.wps.cn"
