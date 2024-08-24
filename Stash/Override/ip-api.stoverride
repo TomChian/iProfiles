@@ -1,5 +1,7 @@
 name: IP信息
 desc: IP信息面板
+icon: https://github.com/TomChian/iProfiles/blob/Master/Stash/Maps_pin.png?raw=true
+category: Tom Chian
 tiles:
   - name: IPxinxi
     icon: 'mappin.and.ellipse'
