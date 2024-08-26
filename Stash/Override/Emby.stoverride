@@ -1,0 +1,17 @@
+name: EMBY
+desc: Emby插件
+icon: https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Color/EMBY.png
+category: Tom Chian
+http:
+  mitm:
+    - "mb3admin.com"
+  script:
+    - match: ^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey)
+      name: EMBY1
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  EMBY1:
+    url: https://subweb.s3.fr-par.scw.cloud/Script/embycrack.js
+    interval: 86400
