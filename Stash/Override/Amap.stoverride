@@ -1,7 +1,7 @@
 name: 高德地图
 desc: 高德地图去广告
 icon: https://raw.githubusercontent.com/deezertidal/private/main/icons/gddt.png
-category: Tom Chian
+category: "Tom Chian"
 http:
   mitm:
     - "*amap.com"
