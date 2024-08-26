@@ -1,0 +1,18 @@
+name: WPS
+desc: WPS解锁本地会员
+icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/wps.png
+category: Tom Chian
+http:
+  mitm:
+    - "account.wps.cn"
+    - "*account.wps.com"
+  script:
+    - match: ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$
+      name: WPShuiyuan1
+      type: response
+      require-body: true
+      timeout: 10
+script-providers:
+  WPShuiyuan1:
+    url: https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js, requires-body=true, timeout=10
+    interval: 86400

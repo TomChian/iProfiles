@@ -1,0 +1,11 @@
+name: IP信息
+desc: IP信息面板
+icon: https://github.com/TomChian/iProfiles/blob/Master/Stash/Maps_pin.png?raw=true
+category: Tom Chian
+tiles:
+  - name: IP信息
+    icon: 'mappin.and.ellipse'
+    backgroundColor: '#f50505'
+script-providers:
+  IPxinxi:
+    url: https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/ip-api.js
