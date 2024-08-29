@@ -7,5 +7,5 @@ tiles:
     icon: 'mappin.and.ellipse'
     backgroundColor: '#f50505'
 script-providers:
-  IPxinxi:
+  IP信息:
     url: https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/ip-api.js
